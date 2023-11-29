@@ -11,7 +11,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 
 public class RedGemItem extends Item {
 	public RedGemItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().durability(1).rarity(Rarity.COMMON));
 		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.TOOLS_AND_UTILITIES).register(content -> content.accept(this));
 	}
 
