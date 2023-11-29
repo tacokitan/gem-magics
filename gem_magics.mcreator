@@ -1,9 +1,25 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "RedGem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_gem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/item/RedGemItem.java",
+          "src/main/resources/assets/gem_magics/models/item/red_gem.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.gem_magics.red_gem": "Red Gem"
+    }
   },
   "foldersRoot": {
     "name": "~",
