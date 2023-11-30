@@ -1,63 +1,23 @@
 {
-  "mod_elements": [
-    {
-      "name": "RedGemPlayerFinishesUsingItem",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "red_gem_player_finishes_using_item",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/gemmagics/procedures/RedGemPlayerFinishesUsingItemProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "RedGem",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "red_gem",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/gemmagics/item/RedGemItem.java",
-          "src/main/resources/assets/gem_magics/models/item/red_gem.json"
-        ]
-      }
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "item.gem_magics.red_gem": "Red Gem"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Gems",
+        "children": [
+          {
+            "name": "FireResGem",
+            "children": []
+          }
+        ]
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "gem_magics",
@@ -73,6 +33,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "fabric-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.gemmagics",
     "lockBaseModFiles": false
   },
