@@ -32,32 +32,44 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Gems/FireResGem"
     },
     {
-      "name": "RedGem",
+      "name": "FireResGem",
       "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "red_gem",
+      "registry_name": "fire_res_gem",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gemmagics/item/RedGemItem.java",
-          "src/main/resources/assets/gem_magics/models/item/red_gem.json"
+          "src/main/java/net/mcreator/gemmagics/item/FireResGemItem.java",
+          "src/main/resources/assets/gem_magics/models/item/fire_res_gem.json"
         ]
-      }
+      },
+      "path": "~/Gems/FireResGem"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.gem_magics.red_gem": "Red Gem"
+      "item.gem_magics.fire_res_gem": "Ardyne"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Gems",
+        "children": [
+          {
+            "name": "FireResGem",
+            "children": []
+          }
+        ]
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "gem_magics",
