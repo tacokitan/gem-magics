@@ -1,54 +1,5 @@
 {
-  "mod_elements": [
-    {
-      "name": "RedGemPlayerFinishesUsingItem",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "red_gem_player_finishes_using_item",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/gemmagics/procedures/RedGemPlayerFinishesUsingItemProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "FireResGem",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fire_res_gem",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/gemmagics/item/FireResGemItem.java",
-          "src/main/resources/assets/gem_magics/models/item/fire_res_gem.json"
-        ]
-      },
-      "path": "~/Gems/FireResGem"
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
