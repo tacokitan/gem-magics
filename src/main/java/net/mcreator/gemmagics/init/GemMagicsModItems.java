@@ -9,12 +9,15 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.Registry;
 
 import net.mcreator.gemmagics.item.FireResGemItem;
+import net.mcreator.gemmagics.item.AbsorbGemItem;
 import net.mcreator.gemmagics.GemMagicsMod;
 
 public class GemMagicsModItems {
+	public static Item ABSORB_GEM;
 	public static Item FIRE_RES_GEM;
 
 	public static void load() {
+		ABSORB_GEM = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(GemMagicsMod.MODID, "absorb_gem"), new AbsorbGemItem());
 		FIRE_RES_GEM = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(GemMagicsMod.MODID, "fire_res_gem"), new FireResGemItem());
 	}
 
