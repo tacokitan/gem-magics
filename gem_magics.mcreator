@@ -3,7 +3,6 @@
     {
       "name": "RedGemPlayerFinishesUsingItem",
       "type": "procedure",
-      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_gem_player_finishes_using_item",
@@ -39,7 +38,6 @@
     {
       "name": "FireResGem",
       "type": "item",
-      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_res_gem",
@@ -118,11 +116,11 @@
         "name": "Gems",
         "children": [
           {
-            "name": "FireResGem",
+            "name": "AbsorbGem",
             "children": []
           },
           {
-            "name": "AbsorbGem",
+            "name": "FireResGem",
             "children": []
           }
         ]
