@@ -3,6 +3,7 @@
     {
       "name": "RedGemPlayerFinishesUsingItem",
       "type": "procedure",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_gem_player_finishes_using_item",
@@ -38,6 +39,7 @@
     {
       "name": "FireResGem",
       "type": "item",
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_res_gem",
@@ -48,13 +50,65 @@
         ]
       },
       "path": "~/Gems/FireResGem"
+    },
+    {
+      "name": "HasteGemPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "haste_gem_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/procedures/HasteGemPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gems/HasteGem"
+    },
+    {
+      "name": "HasteGem",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "haste_gem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gem_magics/models/item/haste_gem.json",
+          "src/main/java/net/mcreator/gemmagics/item/HasteGemItem.java"
+        ]
+      },
+      "path": "~/Gems/HasteGem"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.gem_magics.fire_res_gem": "Ardyne"
+      "item.gem_magics.fire_res_gem": "Ardyne",
+      "item.gem_magics.haste_gem": "Acrité"
     }
   },
   "foldersRoot": {
@@ -65,6 +119,10 @@
         "children": [
           {
             "name": "FireResGem",
+            "children": []
+          },
+          {
+            "name": "HasteGem",
             "children": []
           }
         ]

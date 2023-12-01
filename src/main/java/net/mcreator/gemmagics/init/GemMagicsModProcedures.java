@@ -5,10 +5,12 @@
 package net.mcreator.gemmagics.init;
 
 import net.mcreator.gemmagics.procedures.RedGemPlayerFinishesUsingItemProcedure;
+import net.mcreator.gemmagics.procedures.HasteGemPlayerFinishesUsingItemProcedure;
 
 @SuppressWarnings("InstantiationOfUtilityClass")
 public class GemMagicsModProcedures {
 	public static void load() {
+		new HasteGemPlayerFinishesUsingItemProcedure();
 		new RedGemPlayerFinishesUsingItemProcedure();
 	}
 }
