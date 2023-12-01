@@ -4,13 +4,13 @@
       "name": "HasteGem",
       "type": "item",
       "sortid": 3,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "haste_gem",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gem_magics/models/item/haste_gem.json",
-          "src/main/java/net/mcreator/gemmagics/item/HasteGemItem.java"
+          "src/main/java/net/mcreator/gemmagics/item/HasteGemItem.java",
+          "src/main/resources/assets/gem_magics/models/item/haste_gem.json"
         ]
       },
       "path": "~/Gems/HasteGem"
@@ -19,7 +19,7 @@
       "name": "HasteGemPlayerFinishesUsingItem",
       "type": "procedure",
       "sortid": 1,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "haste_gem_player_finishes_using_item",
       "metadata": {
@@ -55,7 +55,7 @@
       "name": "AbsorbGemPlayerFinishesUsingItem",
       "type": "procedure",
       "sortid": 1,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "absorb_gem_player_finishes_using_item",
       "metadata": {
@@ -91,7 +91,7 @@
       "name": "AbsorbGem",
       "type": "item",
       "sortid": 3,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "absorb_gem",
       "metadata": {
@@ -106,7 +106,7 @@
       "name": "FireResGem",
       "type": "item",
       "sortid": 4,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "fire_res_gem",
       "metadata": {
@@ -121,7 +121,7 @@
       "name": "RedGemPlayerFinishesUsingItem",
       "type": "procedure",
       "sortid": 5,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "red_gem_player_finishes_using_item",
       "metadata": {
@@ -152,6 +152,57 @@
         ]
       },
       "path": "~/Gems/FireResGem"
+    },
+    {
+      "name": "DolphinGemPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolphin_gem_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/procedures/DolphinGemPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gems/DolphinGem"
+    },
+    {
+      "name": "DolphinGem",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolphin_gem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/item/DolphinGemItem.java",
+          "src/main/resources/assets/gem_magics/models/item/dolphin_gem.json"
+        ]
+      },
+      "path": "~/Gems/DolphinGem"
     }
   ],
   "variable_elements": [],
@@ -159,7 +210,9 @@
   "language_map": {
     "en_us": {
       "item.gem_magics.fire_res_gem": "Ardyne",
-      "item.gem_magics.absorb_gem": "Exbeget"
+      "item.gem_magics.absorb_gem": "Exbeget",
+      "item.gem_magics.dolphin_gem": "Delpurl",
+      "item.gem_magics.haste_gem": "Acrité"
     }
   },
   "foldersRoot": {
@@ -178,6 +231,10 @@
           },
           {
             "name": "HasteGem",
+            "children": []
+          },
+          {
+            "name": "DolphinGem",
             "children": []
           }
         ]
