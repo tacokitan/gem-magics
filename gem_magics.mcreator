@@ -4,7 +4,7 @@
       "name": "HasteGem",
       "type": "item",
       "sortid": 3,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "haste_gem",
       "metadata": {
@@ -12,14 +12,13 @@
           "src/main/resources/assets/gem_magics/models/item/haste_gem.json",
           "src/main/java/net/mcreator/gemmagics/item/HasteGemItem.java"
         ]
-      },
-      "path": "~/Gems/HasteGem"
+      }
     },
     {
       "name": "HasteGemPlayerFinishesUsingItem",
       "type": "procedure",
       "sortid": 1,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "haste_gem_player_finishes_using_item",
       "metadata": {
@@ -48,8 +47,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Gems/HasteGem"
+      }
     },
     {
       "name": "AbsorbGemPlayerFinishesUsingItem",
@@ -106,7 +104,7 @@
       "name": "FireResGem",
       "type": "item",
       "sortid": 4,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "fire_res_gem",
       "metadata": {
@@ -121,7 +119,7 @@
       "name": "RedGemPlayerFinishesUsingItem",
       "type": "procedure",
       "sortid": 5,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "red_gem_player_finishes_using_item",
       "metadata": {
