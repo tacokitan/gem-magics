@@ -1,55 +1,19 @@
 {
   "mod_elements": [
     {
-      "name": "RedGemPlayerFinishesUsingItem",
-      "type": "procedure",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "red_gem_player_finishes_using_item",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/gemmagics/procedures/RedGemPlayerFinishesUsingItemProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Gems/FireResGem"
-    },
-    {
-      "name": "FireResGem",
+      "name": "HasteGem",
       "type": "item",
-      "sortid": 4,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "fire_res_gem",
+      "registry_name": "haste_gem",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gemmagics/item/FireResGemItem.java",
-          "src/main/resources/assets/gem_magics/models/item/fire_res_gem.json"
+          "src/main/resources/assets/gem_magics/models/item/haste_gem.json",
+          "src/main/java/net/mcreator/gemmagics/item/HasteGemItem.java"
         ]
       },
-      "path": "~/Gems/FireResGem"
+      "path": "~/Gems/HasteGem"
     },
     {
       "name": "HasteGemPlayerFinishesUsingItem",
@@ -88,19 +52,106 @@
       "path": "~/Gems/HasteGem"
     },
     {
-      "name": "HasteGem",
-      "type": "item",
-      "sortid": 3,
-      "compiles": true,
+      "name": "AbsorbGemPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": false,
       "locked_code": false,
-      "registry_name": "haste_gem",
+      "registry_name": "absorb_gem_player_finishes_using_item",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gem_magics/models/item/haste_gem.json",
-          "src/main/java/net/mcreator/gemmagics/item/HasteGemItem.java"
+          "src/main/java/net/mcreator/gemmagics/procedures/AbsorbGemPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       },
-      "path": "~/Gems/HasteGem"
+      "path": "~/Gems/AbsorbGem"
+    },
+    {
+      "name": "AbsorbGem",
+      "type": "item",
+      "sortid": 3,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "absorb_gem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gem_magics/models/item/absorb_gem.json",
+          "src/main/java/net/mcreator/gemmagics/item/AbsorbGemItem.java"
+        ]
+      },
+      "path": "~/Gems/AbsorbGem"
+    },
+    {
+      "name": "FireResGem",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_res_gem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/item/FireResGemItem.java",
+          "src/main/resources/assets/gem_magics/models/item/fire_res_gem.json"
+        ]
+      },
+      "path": "~/Gems/FireResGem"
+    },
+    {
+      "name": "RedGemPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_gem_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/procedures/RedGemPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gems/FireResGem"
     }
   ],
   "variable_elements": [],
@@ -108,7 +159,7 @@
   "language_map": {
     "en_us": {
       "item.gem_magics.fire_res_gem": "Ardyne",
-      "item.gem_magics.haste_gem": "Acrité"
+      "item.gem_magics.absorb_gem": "Exbeget"
     }
   },
   "foldersRoot": {
@@ -118,11 +169,11 @@
         "name": "Gems",
         "children": [
           {
-            "name": "FireResGem",
+            "name": "AbsorbGem",
             "children": []
           },
           {
-            "name": "HasteGem",
+            "name": "FireResGem",
             "children": []
           }
         ]

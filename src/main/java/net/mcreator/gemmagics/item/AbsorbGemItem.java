@@ -4,9 +4,9 @@ package net.mcreator.gemmagics.item;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import com.google.common.collect.Multimap;
 
-public class FireResGemItem extends Item {
+public class AbsorbGemItem extends Item {
 
-	public FireResGemItem() {
+	public AbsorbGemItem() {
 		super(new Item.Properties().stacksTo(16).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(0).saturationMod(0f).alwaysEat()
 
 				.build()));
@@ -21,13 +21,13 @@ public class FireResGemItem extends Item {
 
 	@Override
 	public int getUseDuration(ItemStack itemstack) {
-		return 50;
+		return 32;
 	}
 
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("It feels hot to the touch."));
+		list.add(Component.literal("It radiates with a lively energy."));
 	}
 
 	@Override
@@ -38,7 +38,7 @@ public class FireResGemItem extends Item {
 		double y = entity.getY();
 		double z = entity.getZ();
 
-		RedGemPlayerFinishesUsingItemProcedure.execute();
+		AbsorbGemPlayerFinishesUsingItemProcedure.execute(world, x, y, z, entity);
 
 		return retval;
 	}
