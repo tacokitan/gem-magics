@@ -13,8 +13,8 @@ import net.mcreator.gemmagics.procedures.AbsorbGemPlayerFinishesUsingItemProcedu
 public class GemMagicsModProcedures {
 	public static void load() {
 		new HasteGemPlayerFinishesUsingItemProcedure();
-		new AbsorbGemPlayerFinishesUsingItemProcedure();
 		new RedGemPlayerFinishesUsingItemProcedure();
 		new DolphinGemPlayerFinishesUsingItemProcedure();
+		new AbsorbGemPlayerFinishesUsingItemProcedure();
 	}
 }

@@ -1,0 +1,12 @@
+{
+  "gem_crush": {
+    "category": "player",
+    "subtitle": "subtitles.gem_crush",
+    "sounds": [
+      {
+        "name": "gem_magics:gem_crush_01",
+        "stream": false
+      }
+    ]
+  }
+}

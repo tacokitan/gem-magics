@@ -15,7 +15,9 @@ package net.mcreator.gemmagics;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+import net.mcreator.gemmagics.init.GemMagicsModSounds;
 import net.mcreator.gemmagics.init.GemMagicsModProcedures;
+import net.mcreator.gemmagics.init.GemMagicsModParticleTypes;
 import net.mcreator.gemmagics.init.GemMagicsModItems;
 
 import net.fabricmc.api.ModInitializer;
@@ -27,10 +29,13 @@ public class GemMagicsMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Initializing GemMagicsMod");
+		GemMagicsModParticleTypes.load();
 
 		GemMagicsModItems.load();
 
 		GemMagicsModProcedures.load();
+
+		GemMagicsModSounds.load();
 
 	}
 }

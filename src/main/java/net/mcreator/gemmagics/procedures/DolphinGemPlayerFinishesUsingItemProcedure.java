@@ -10,34 +10,56 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
-import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.BlockPos;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.CommandSource;
 
+import net.mcreator.gemmagics.init.GemMagicsModSounds;
+
 public class DolphinGemPlayerFinishesUsingItemProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 300, 1));
-		if (world instanceof ServerLevel _level)
-			_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-					"/stopsound @a * minecraft:entity.player.burp");
-		if (world instanceof ServerLevel _level)
-			_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-					"/stopsound @a * minecraft:entity.generic.eat");
-		if (world instanceof ServerLevel _level)
-			_level.sendParticles(ParticleTypes.SONIC_BOOM, x, y, z, 1, 0, 0.5, 0, 1);
-		if (world instanceof Level _level) {
-			if (!_level.isClientSide()) {
-				_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("block.amethyst_block.resonate")), SoundSource.NEUTRAL, 1, 1);
+		double randNum = 0;
+		if (!world.isClientSide()) {
+			randNum = Math.random();
+			if (randNum > 0.66) {
+				if (world instanceof Level _level) {
+					if (!_level.isClientSide()) {
+						_level.playSound(null, BlockPos.containing(x, y, z), GemMagicsModSounds.GEM_CRUSH, SoundSource.PLAYERS, 1, (float) 0.95);
+					} else {
+						_level.playLocalSound(x, y, z, GemMagicsModSounds.GEM_CRUSH, SoundSource.PLAYERS, 1, (float) 0.95, false);
+					}
+				}
+			} else if (randNum > 0.33) {
+				if (world instanceof Level _level) {
+					if (!_level.isClientSide()) {
+						_level.playSound(null, BlockPos.containing(x, y, z), GemMagicsModSounds.GEM_CRUSH, SoundSource.PLAYERS, 1, (float) 1.05);
+					} else {
+						_level.playLocalSound(x, y, z, GemMagicsModSounds.GEM_CRUSH, SoundSource.PLAYERS, 1, (float) 1.05, false);
+					}
+				}
 			} else {
-				_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("block.amethyst_block.resonate")), SoundSource.NEUTRAL, 1, 1, false);
+				if (world instanceof Level _level) {
+					if (!_level.isClientSide()) {
+						_level.playSound(null, BlockPos.containing(x, y, z), GemMagicsModSounds.GEM_CRUSH, SoundSource.PLAYERS, 1, 1);
+					} else {
+						_level.playLocalSound(x, y, z, GemMagicsModSounds.GEM_CRUSH, SoundSource.PLAYERS, 1, 1, false);
+					}
+				}
 			}
+			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+				_entity.addEffect(new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 300, 1));
+			if (world instanceof ServerLevel _level)
+				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+						"/stopsound @a * minecraft:entity.player.burp");
+			if (world instanceof ServerLevel _level)
+				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+						"/stopsound @a * minecraft:entity.generic.eat");
+			if (world instanceof ServerLevel _level)
+				_level.sendParticles(ParticleTypes.BUBBLE_POP, x, y, z, 6, 0.5, 1, 0.5, 1);
 		}
 	}
 }
