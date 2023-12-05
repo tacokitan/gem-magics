@@ -20,9 +20,9 @@ import net.mcreator.gemmagics.item.HasteGemItem;
 import net.mcreator.gemmagics.item.GlowGemItem;
 import net.mcreator.gemmagics.item.FireResGemItem;
 import net.mcreator.gemmagics.item.DolphinGemItem;
-import net.mcreator.gemmagics.item.DarkGemItem;
+import net.mcreator.gemmagics.item.DarknessGemItem;
 import net.mcreator.gemmagics.item.ConduitGemItem;
-import net.mcreator.gemmagics.item.BlindGemItem;
+import net.mcreator.gemmagics.item.BlindnessGemItem;
 import net.mcreator.gemmagics.item.BadLuckGemItem;
 import net.mcreator.gemmagics.item.AbsorbGemItem;
 import net.mcreator.gemmagics.GemMagicsMod;
@@ -32,9 +32,7 @@ public class GemMagicsModItems {
 	public static Item ABSORB_GEM;
 	public static Item FIRE_RES_GEM;
 	public static Item DOLPHIN_GEM;
-	public static Item BLIND_GEM;
 	public static Item CONDUIT_GEM;
-	public static Item DARKNESS_GEM;
 	public static Item GLOW_GEM;
 	public static Item HUNGER_GEM;
 	public static Item INSTA_HEALTH_GEM;
@@ -45,15 +43,15 @@ public class GemMagicsModItems {
 	public static Item LEVITATION_GEM;
 	public static Item LUCK_GEM;
 	public static Item BAD_LUCK_GEM;
+	public static Item DARKNESS_GEM;
+	public static Item BLINDNESS_GEM;
 
 	public static void load() {
 		HASTE_GEM = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(GemMagicsMod.MODID, "haste_gem"), new HasteGemItem());
 		ABSORB_GEM = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(GemMagicsMod.MODID, "absorb_gem"), new AbsorbGemItem());
 		FIRE_RES_GEM = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(GemMagicsMod.MODID, "fire_res_gem"), new FireResGemItem());
 		DOLPHIN_GEM = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(GemMagicsMod.MODID, "dolphin_gem"), new DolphinGemItem());
-		BLIND_GEM = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(GemMagicsMod.MODID, "blind_gem"), new BlindGemItem());
 		CONDUIT_GEM = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(GemMagicsMod.MODID, "conduit_gem"), new ConduitGemItem());
-		DARKNESS_GEM = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(GemMagicsMod.MODID, "darkness_gem"), new DarkGemItem());
 		GLOW_GEM = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(GemMagicsMod.MODID, "glow_gem"), new GlowGemItem());
 		HUNGER_GEM = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(GemMagicsMod.MODID, "hunger_gem"), new HungerGemItem());
 		INSTA_HEALTH_GEM = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(GemMagicsMod.MODID, "insta_health_gem"), new InstaHealthGemItem());
@@ -64,6 +62,8 @@ public class GemMagicsModItems {
 		LEVITATION_GEM = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(GemMagicsMod.MODID, "levitation_gem"), new LevitationGemItem());
 		LUCK_GEM = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(GemMagicsMod.MODID, "luck_gem"), new LuckGemItem());
 		BAD_LUCK_GEM = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(GemMagicsMod.MODID, "bad_luck_gem"), new BadLuckGemItem());
+		DARKNESS_GEM = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(GemMagicsMod.MODID, "darkness_gem"), new DarknessGemItem());
+		BLINDNESS_GEM = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(GemMagicsMod.MODID, "blindness_gem"), new BlindnessGemItem());
 	}
 
 	public static void clientLoad() {

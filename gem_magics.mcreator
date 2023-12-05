@@ -235,21 +235,6 @@
       "path": "~/Gems/HasteGem"
     },
     {
-      "name": "BlindGem",
-      "type": "item",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blind_gem",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/gemmagics/item/BlindGemItem.java",
-          "src/main/resources/assets/gem_magics/models/item/blind_gem.json"
-        ]
-      },
-      "path": "~/Gems/BlindGem"
-    },
-    {
       "name": "ConduitGem",
       "type": "item",
       "sortid": 12,
@@ -263,21 +248,6 @@
         ]
       },
       "path": "~/Gems/ConduitGem"
-    },
-    {
-      "name": "DarkGem",
-      "type": "item",
-      "sortid": 13,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "darkness_gem",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/gemmagics/item/DarkGemItem.java",
-          "src/main/resources/assets/gem_magics/models/item/darkness_gem.json"
-        ]
-      },
-      "path": "~/Gems/DarknessGem"
     },
     {
       "name": "GlowGem",
@@ -428,6 +398,51 @@
         ]
       },
       "path": "~/Gems/BadLuckGem"
+    },
+    {
+      "name": "DarknessGem",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkness_gem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gem_magics/models/item/darkness_gem.json",
+          "src/main/java/net/mcreator/gemmagics/item/DarknessGemItem.java"
+        ]
+      },
+      "path": "~/Gems/DarknessGem"
+    },
+    {
+      "name": "BlindnessGem",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blindness_gem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gem_magics/models/item/blindness_gem.json",
+          "src/main/java/net/mcreator/gemmagics/item/BlindnessGemItem.java"
+        ]
+      },
+      "path": "~/Gems/BlindnessGem"
+    },
+    {
+      "name": "BadLuckParticle",
+      "type": "particle",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bad_luck_particle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gem_magics/particles/bad_luck_particle.json",
+          "src/main/java/net/mcreator/gemmagics/client/particle/BadLuckParticleParticle.java"
+        ]
+      },
+      "path": "~/Gems/BadLuckGem"
     }
   ],
   "variable_elements": [],
@@ -435,7 +450,9 @@
     {
       "name": "gem_crush",
       "files": [
-        "gem_crush_01"
+        "gem_crush_01",
+        "gem_crush_02",
+        "gem_crush_03"
       ],
       "category": "player",
       "subtitle": "Gem crunches"
@@ -455,11 +472,11 @@
       "item.gem_magics.darkness_gem": "Exbeget",
       "item.gem_magics.hunger_gem": "Exbeget",
       "subtitles.gem_crush": "Gem crunches",
-      "item.gem_magics.blind_gem": "Exbeget",
       "item.gem_magics.fire_res_gem": "Ardyne",
       "item.gem_magics.invis_gem": "Exbeget",
       "item.gem_magics.absorb_gem": "Exbeget",
       "item.gem_magics.luck_gem": "Exbeget",
+      "item.gem_magics.blindness_gem": "Exbeget",
       "item.gem_magics.glow_gem": "Exbeget"
     }
   },
@@ -470,23 +487,7 @@
         "name": "Gems",
         "children": [
           {
-            "name": "AbsorbGem",
-            "children": []
-          },
-          {
-            "name": "FireResGem",
-            "children": []
-          },
-          {
-            "name": "HasteGem",
-            "children": []
-          },
-          {
             "name": "DolphinGem",
-            "children": []
-          },
-          {
-            "name": "BlindGem",
             "children": []
           },
           {
@@ -498,15 +499,7 @@
             "children": []
           },
           {
-            "name": "GlowGem",
-            "children": []
-          },
-          {
             "name": "HungerGem",
-            "children": []
-          },
-          {
-            "name": "InstaHealthGem",
             "children": []
           },
           {
@@ -518,11 +511,7 @@
             "children": []
           },
           {
-            "name": "InvisGem",
-            "children": []
-          },
-          {
-            "name": "JumpGem",
+            "name": "LuckGem",
             "children": []
           },
           {
@@ -530,11 +519,39 @@
             "children": []
           },
           {
-            "name": "LuckGem",
+            "name": "AbsorbGem",
+            "children": []
+          },
+          {
+            "name": "BlindnessGem",
             "children": []
           },
           {
             "name": "BadLuckGem",
+            "children": []
+          },
+          {
+            "name": "FireResGem",
+            "children": []
+          },
+          {
+            "name": "GlowGem",
+            "children": []
+          },
+          {
+            "name": "HasteGem",
+            "children": []
+          },
+          {
+            "name": "InstaHealthGem",
+            "children": []
+          },
+          {
+            "name": "InvisGem",
+            "children": []
+          },
+          {
+            "name": "JumpGem",
             "children": []
           }
         ]

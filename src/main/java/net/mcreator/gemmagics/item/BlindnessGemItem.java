@@ -18,8 +18,8 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 
 import java.util.List;
 
-public class DarkGemItem extends Item {
-	public DarkGemItem() {
+public class BlindnessGemItem extends Item {
+	public BlindnessGemItem() {
 		super(new Item.Properties().stacksTo(16).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(0).saturationMod(0f).alwaysEat()
 
 				.build()));
