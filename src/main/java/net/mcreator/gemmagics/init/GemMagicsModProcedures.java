@@ -4,6 +4,7 @@
  */
 package net.mcreator.gemmagics.init;
 
+import net.mcreator.gemmagics.procedures.WitherGemPlayerFinishesUsingItemProcedure;
 import net.mcreator.gemmagics.procedures.RedGemPlayerFinishesUsingItemProcedure;
 import net.mcreator.gemmagics.procedures.HasteGemPlayerFinishesUsingItemProcedure;
 import net.mcreator.gemmagics.procedures.DolphinGemPlayerFinishesUsingItemProcedure;
@@ -16,5 +17,6 @@ public class GemMagicsModProcedures {
 		new RedGemPlayerFinishesUsingItemProcedure();
 		new DolphinGemPlayerFinishesUsingItemProcedure();
 		new AbsorbGemPlayerFinishesUsingItemProcedure();
+		new WitherGemPlayerFinishesUsingItemProcedure();
 	}
 }

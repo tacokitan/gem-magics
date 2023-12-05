@@ -1,0 +1,49 @@
+{
+  "_fv": 47,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "black_gem",
+    "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
+    "name": "Exbeget",
+    "rarity": "COMMON",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "stackSize": 16,
+    "enchantability": 0,
+    "useDuration": 32,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "scrimbly scrimblo :3"
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onFinishUsingItem": {
+      "name": "WitherGemPlayerFinishesUsingItem"
+    },
+    "isFood": true,
+    "nutritionalValue": 0,
+    "saturation": 0.0,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": true,
+    "animation": "spear"
+  }
+}
