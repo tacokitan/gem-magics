@@ -121,7 +121,7 @@
       "name": "MiningFatigueGem",
       "type": "item",
       "sortid": 26,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "mining_fatigue_gem",
       "metadata": {
@@ -166,7 +166,7 @@
       "name": "SaturationGem",
       "type": "item",
       "sortid": 19,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "saturation_gem",
       "metadata": {
@@ -181,7 +181,7 @@
       "name": "RegenerationGem",
       "type": "item",
       "sortid": 21,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "regeneration_gem",
       "metadata": {
@@ -211,7 +211,7 @@
       "name": "WeaknessGem",
       "type": "item",
       "sortid": 13,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "weakness_gem",
       "metadata": {
@@ -241,7 +241,7 @@
       "name": "NightVisionGem",
       "type": "item",
       "sortid": 23,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "night_vision_gem",
       "metadata": {
@@ -286,7 +286,7 @@
       "name": "SlowFallingGem",
       "type": "item",
       "sortid": 18,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "slow_falling_gem",
       "metadata": {
@@ -301,7 +301,7 @@
       "name": "NauseaGem",
       "type": "item",
       "sortid": 24,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "nausea_gem",
       "metadata": {
@@ -367,7 +367,7 @@
       "name": "HungerGem",
       "type": "item",
       "sortid": 15,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "hunger_gem",
       "metadata": {
@@ -382,7 +382,7 @@
       "name": "BadLuckGem",
       "type": "item",
       "sortid": 23,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "bad_luck_gem",
       "metadata": {
@@ -397,7 +397,7 @@
       "name": "ConduitGem",
       "type": "item",
       "sortid": 12,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "conduit_gem",
       "metadata": {
@@ -427,7 +427,7 @@
       "name": "HealthBoostGem",
       "type": "item",
       "sortid": 17,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "health_boost_gem",
       "metadata": {
@@ -457,7 +457,7 @@
       "name": "DarknessGem",
       "type": "item",
       "sortid": 27,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "darkness_gem",
       "metadata": {
@@ -487,7 +487,7 @@
       "name": "BadLuckParticle",
       "type": "particle",
       "sortid": 26,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "bad_luck_particle",
       "metadata": {
@@ -502,7 +502,7 @@
       "name": "AbsorptionParticle",
       "type": "particle",
       "sortid": 30,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "absorption_particle",
       "metadata": {
@@ -517,7 +517,7 @@
       "name": "AbsorptionGem",
       "type": "item",
       "sortid": 29,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "absorption_gem",
       "metadata": {
@@ -583,7 +583,7 @@
       "name": "FireResistanceGem",
       "type": "item",
       "sortid": 32,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "fire_resistance_gem",
       "metadata": {
@@ -649,7 +649,7 @@
       "name": "JumpBoostGem",
       "type": "item",
       "sortid": 38,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "jump_boost_gem",
       "metadata": {
