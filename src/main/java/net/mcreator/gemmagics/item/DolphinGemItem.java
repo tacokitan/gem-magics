@@ -4,9 +4,9 @@ package net.mcreator.gemmagics.item;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import com.google.common.collect.Multimap;
 
-public class FireResGemItem extends Item {
+public class DolphinGemItem extends Item {
 
-	public FireResGemItem() {
+	public DolphinGemItem() {
 		super(new Item.Properties().stacksTo(16).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(0).saturationMod(0f).alwaysEat()
 
 				.build()));
@@ -27,7 +27,7 @@ public class FireResGemItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("It feels hot to the touch."));
+		list.add(Component.literal("You hear the sound of waves emitting from it."));
 	}
 
 	@Override
@@ -38,7 +38,7 @@ public class FireResGemItem extends Item {
 		double y = entity.getY();
 		double z = entity.getZ();
 
-		RedGemPlayerFinishesUsingItemProcedure.execute(world, x, y, z, entity);
+		DolphinGemPlayerFinishesUsingItemProcedure.execute(world, x, y, z, entity);
 
 		return retval;
 	}
