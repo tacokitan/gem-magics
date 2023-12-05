@@ -118,6 +118,111 @@
       "path": "~/Gems/HasteGem"
     },
     {
+      "name": "ConduitGem",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "conduit_gem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/item/ConduitGemItem.java",
+          "src/main/resources/assets/gem_magics/models/item/conduit_gem.json"
+        ]
+      },
+      "path": "~/Gems/ConduitGem"
+    },
+    {
+      "name": "HungerGem",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hunger_gem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gem_magics/models/item/hunger_gem.json",
+          "src/main/java/net/mcreator/gemmagics/item/HungerGemItem.java"
+        ]
+      },
+      "path": "~/Gems/HungerGem"
+    },
+    {
+      "name": "HealthBoostGem",
+      "type": "item",
+      "sortid": 17,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "health_boost_gem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/item/HealthBoostGemItem.java",
+          "src/main/resources/assets/gem_magics/models/item/health_boost_gem.json"
+        ]
+      },
+      "path": "~/Gems/HealthBoostGem"
+    },
+    {
+      "name": "LevitationGem",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "levitation_gem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/item/LevitationGemItem.java",
+          "src/main/resources/assets/gem_magics/models/item/levitation_gem.json"
+        ]
+      },
+      "path": "~/Gems/LevitationGem"
+    },
+    {
+      "name": "LuckGem",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luck_gem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gem_magics/models/item/luck_gem.json",
+          "src/main/java/net/mcreator/gemmagics/item/LuckGemItem.java"
+        ]
+      },
+      "path": "~/Gems/LuckGem"
+    },
+    {
+      "name": "BadLuckGem",
+      "type": "item",
+      "sortid": 23,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "bad_luck_gem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gem_magics/models/item/bad_luck_gem.json",
+          "src/main/java/net/mcreator/gemmagics/item/BadLuckGemItem.java"
+        ]
+      },
+      "path": "~/Gems/BadLuckGem"
+    },
+    {
+      "name": "BadLuckParticle",
+      "type": "particle",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bad_luck_particle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gem_magics/particles/bad_luck_particle.json",
+          "src/main/java/net/mcreator/gemmagics/client/particle/BadLuckParticleParticle.java"
+        ]
+      },
+      "path": "~/Gems/BadLuckGem"
+    },
+    {
       "name": "MiningFatigueGem",
       "type": "item",
       "sortid": 26,
@@ -129,8 +234,7 @@
           "src/main/resources/assets/gem_magics/models/item/mining_fatigue_gem.json",
           "src/main/java/net/mcreator/gemmagics/item/MiningFatigueGemItem.java"
         ]
-      },
-      "path": "~/Gems/MiningFatigueGem"
+      }
     },
     {
       "name": "PoisonGem",
@@ -144,8 +248,7 @@
           "src/main/resources/assets/gem_magics/models/item/poison_gem.json",
           "src/main/java/net/mcreator/gemmagics/item/PoisonGemItem.java"
         ]
-      },
-      "path": "~/Gems/PoisonGem"
+      }
     },
     {
       "name": "WaterBreathingGem",
@@ -159,14 +262,13 @@
           "src/main/java/net/mcreator/gemmagics/item/WaterBreathingGemItem.java",
           "src/main/resources/assets/gem_magics/models/item/water_breathing_gem.json"
         ]
-      },
-      "path": "~/Gems/WaterBreathingGem"
+      }
     },
     {
       "name": "SaturationGem",
       "type": "item",
       "sortid": 19,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "saturation_gem",
       "metadata": {
@@ -174,8 +276,7 @@
           "src/main/java/net/mcreator/gemmagics/item/SaturationGemItem.java",
           "src/main/resources/assets/gem_magics/models/item/saturation_gem.json"
         ]
-      },
-      "path": "~/Gems/SaturationGem"
+      }
     },
     {
       "name": "RegenerationGem",
@@ -189,14 +290,13 @@
           "src/main/resources/assets/gem_magics/models/item/regeneration_gem.json",
           "src/main/java/net/mcreator/gemmagics/item/RegenerationGemItem.java"
         ]
-      },
-      "path": "~/Gems/RegenerationGem"
+      }
     },
     {
       "name": "StrengthGem",
       "type": "item",
       "sortid": 15,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "strength_gem",
       "metadata": {
@@ -204,14 +304,13 @@
           "src/main/resources/assets/gem_magics/models/item/strength_gem.json",
           "src/main/java/net/mcreator/gemmagics/item/StrengthGemItem.java"
         ]
-      },
-      "path": "~/Gems/StrengthGem"
+      }
     },
     {
       "name": "WeaknessGem",
       "type": "item",
       "sortid": 13,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "weakness_gem",
       "metadata": {
@@ -219,8 +318,7 @@
           "src/main/resources/assets/gem_magics/models/item/weakness_gem.json",
           "src/main/java/net/mcreator/gemmagics/item/WeaknessGemItem.java"
         ]
-      },
-      "path": "~/Gems/WeaknessGem"
+      }
     },
     {
       "name": "WitherGem",
@@ -234,14 +332,13 @@
           "src/main/resources/assets/gem_magics/models/item/wither_gem.json",
           "src/main/java/net/mcreator/gemmagics/item/WitherGemItem.java"
         ]
-      },
-      "path": "~/Gems/WitherGem"
+      }
     },
     {
       "name": "NightVisionGem",
       "type": "item",
       "sortid": 23,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "night_vision_gem",
       "metadata": {
@@ -249,8 +346,7 @@
           "src/main/java/net/mcreator/gemmagics/item/NightVisionGemItem.java",
           "src/main/resources/assets/gem_magics/models/item/night_vision_gem.json"
         ]
-      },
-      "path": "~/Gems/NightVisionGem"
+      }
     },
     {
       "name": "ResistanceGem",
@@ -264,14 +360,13 @@
           "src/main/resources/assets/gem_magics/models/item/resistance_gem.json",
           "src/main/java/net/mcreator/gemmagics/item/ResistanceGemItem.java"
         ]
-      },
-      "path": "~/Gems/ResistanceGem"
+      }
     },
     {
       "name": "SpeedGem",
       "type": "item",
       "sortid": 16,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "speed_gem",
       "metadata": {
@@ -279,14 +374,13 @@
           "src/main/resources/assets/gem_magics/models/item/speed_gem.json",
           "src/main/java/net/mcreator/gemmagics/item/SpeedGemItem.java"
         ]
-      },
-      "path": "~/Gems/SpeedGem"
+      }
     },
     {
       "name": "SlowFallingGem",
       "type": "item",
       "sortid": 18,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "slow_falling_gem",
       "metadata": {
@@ -294,8 +388,7 @@
           "src/main/java/net/mcreator/gemmagics/item/SlowFallingGemItem.java",
           "src/main/resources/assets/gem_magics/models/item/slow_falling_gem.json"
         ]
-      },
-      "path": "~/Gems/SlowFallingGem"
+      }
     },
     {
       "name": "NauseaGem",
@@ -309,8 +402,7 @@
           "src/main/java/net/mcreator/gemmagics/item/NauseaGemItem.java",
           "src/main/resources/assets/gem_magics/models/item/nausea_gem.json"
         ]
-      },
-      "path": "~/Gems/NauseaGem"
+      }
     },
     {
       "name": "SlownessGem",
@@ -324,8 +416,7 @@
           "src/main/resources/assets/gem_magics/models/item/slowness_gem.json",
           "src/main/java/net/mcreator/gemmagics/item/SlownessGemItem.java"
         ]
-      },
-      "path": "~/Gems/SlownessGem"
+      }
     },
     {
       "name": "WitherGemPlayerFinishesUsingItem",
@@ -360,113 +451,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Gems/WitherGem"
-    },
-    {
-      "name": "HungerGem",
-      "type": "item",
-      "sortid": 15,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hunger_gem",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/gem_magics/models/item/hunger_gem.json",
-          "src/main/java/net/mcreator/gemmagics/item/HungerGemItem.java"
-        ]
-      },
-      "path": "~/Gems/HungerGem"
-    },
-    {
-      "name": "BadLuckGem",
-      "type": "item",
-      "sortid": 23,
-      "compiles": false,
-      "locked_code": false,
-      "registry_name": "bad_luck_gem",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/gem_magics/models/item/bad_luck_gem.json",
-          "src/main/java/net/mcreator/gemmagics/item/BadLuckGemItem.java"
-        ]
-      },
-      "path": "~/Gems/BadLuckGem"
-    },
-    {
-      "name": "ConduitGem",
-      "type": "item",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "conduit_gem",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/gemmagics/item/ConduitGemItem.java",
-          "src/main/resources/assets/gem_magics/models/item/conduit_gem.json"
-        ]
-      },
-      "path": "~/Gems/ConduitGem"
-    },
-    {
-      "name": "LevitationGem",
-      "type": "item",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "levitation_gem",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/gemmagics/item/LevitationGemItem.java",
-          "src/main/resources/assets/gem_magics/models/item/levitation_gem.json"
-        ]
-      },
-      "path": "~/Gems/LevitationGem"
-    },
-    {
-      "name": "HealthBoostGem",
-      "type": "item",
-      "sortid": 17,
-      "compiles": false,
-      "locked_code": false,
-      "registry_name": "health_boost_gem",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/gemmagics/item/HealthBoostGemItem.java",
-          "src/main/resources/assets/gem_magics/models/item/health_boost_gem.json"
-        ]
-      },
-      "path": "~/Gems/HealthBoostGem"
-    },
-    {
-      "name": "LuckGem",
-      "type": "item",
-      "sortid": 22,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "luck_gem",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/gem_magics/models/item/luck_gem.json",
-          "src/main/java/net/mcreator/gemmagics/item/LuckGemItem.java"
-        ]
-      },
-      "path": "~/Gems/LuckGem"
-    },
-    {
-      "name": "DarknessGem",
-      "type": "item",
-      "sortid": 27,
-      "compiles": false,
-      "locked_code": false,
-      "registry_name": "darkness_gem",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/gem_magics/models/item/darkness_gem.json",
-          "src/main/java/net/mcreator/gemmagics/item/DarknessGemItem.java"
-        ]
-      },
-      "path": "~/Gems/DarknessGem"
+      }
     },
     {
       "name": "BlindnessGem",
@@ -484,19 +469,19 @@
       "path": "~/Gems/BlindnessGem"
     },
     {
-      "name": "BadLuckParticle",
-      "type": "particle",
-      "sortid": 26,
-      "compiles": true,
+      "name": "DarknessGem",
+      "type": "item",
+      "sortid": 27,
+      "compiles": false,
       "locked_code": false,
-      "registry_name": "bad_luck_particle",
+      "registry_name": "darkness_gem",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gem_magics/particles/bad_luck_particle.json",
-          "src/main/java/net/mcreator/gemmagics/client/particle/BadLuckParticleParticle.java"
+          "src/main/resources/assets/gem_magics/models/item/darkness_gem.json",
+          "src/main/java/net/mcreator/gemmagics/item/DarknessGemItem.java"
         ]
       },
-      "path": "~/Gems/BadLuckGem"
+      "path": "~/Gems/DarknessGem"
     },
     {
       "name": "AbsorptionParticle",
