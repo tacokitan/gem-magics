@@ -9,8 +9,8 @@
       "registry_name": "haste_gem",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gemmagics/item/HasteGemItem.java",
-          "src/main/resources/assets/gem_magics/models/item/haste_gem.json"
+          "src/main/resources/assets/gem_magics/models/item/haste_gem.json",
+          "src/main/java/net/mcreator/gemmagics/item/HasteGemItem.java"
         ]
       },
       "path": "~/Gems/HasteGem"
@@ -162,8 +162,8 @@
       "registry_name": "dolphin_gem",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/gemmagics/item/DolphinGemItem.java",
-          "src/main/resources/assets/gem_magics/models/item/dolphin_gem.json"
+          "src/main/resources/assets/gem_magics/models/item/dolphin_gem.json",
+          "src/main/java/net/mcreator/gemmagics/item/DolphinGemItem.java"
         ]
       },
       "path": "~/Gems/DolphinGem"
@@ -228,8 +228,8 @@
       "registry_name": "haste_particle",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gem_magics/particles/haste_particle.json",
-          "src/main/java/net/mcreator/gemmagics/client/particle/HasteParticleParticle.java"
+          "src/main/java/net/mcreator/gemmagics/client/particle/HasteParticleParticle.java",
+          "src/main/resources/assets/gem_magics/particles/haste_particle.json"
         ]
       },
       "path": "~/Gems/HasteGem"
@@ -484,7 +484,7 @@
       "name": "HungerGem",
       "type": "item",
       "sortid": 15,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "hunger_gem",
       "metadata": {
@@ -499,7 +499,7 @@
       "name": "BadLuckGem",
       "type": "item",
       "sortid": 23,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "bad_luck_gem",
       "metadata": {
@@ -514,7 +514,7 @@
       "name": "InstaHealthGem",
       "type": "item",
       "sortid": 16,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "insta_health_gem",
       "metadata": {
@@ -529,7 +529,7 @@
       "name": "ConduitGem",
       "type": "item",
       "sortid": 12,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "conduit_gem",
       "metadata": {
@@ -544,7 +544,7 @@
       "name": "InvisGem",
       "type": "item",
       "sortid": 19,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "invis_gem",
       "metadata": {
@@ -589,7 +589,7 @@
       "name": "HealthBoostGem",
       "type": "item",
       "sortid": 17,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "health_boost_gem",
       "metadata": {
@@ -604,7 +604,7 @@
       "name": "InstaDamageGem",
       "type": "item",
       "sortid": 18,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "insta_damage_gem",
       "metadata": {
@@ -619,7 +619,7 @@
       "name": "GlowGem",
       "type": "item",
       "sortid": 14,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "glow_gem",
       "metadata": {
@@ -689,12 +689,38 @@
   ],
   "language_map": {
     "en_us": {
-      "subtitles.gem_crush": "Gem crunches",
-      "item.gem_magics.fire_res_gem": "Ardyne",
-      "item.gem_magics.absorb_gem": "Exbeget",
+      "item.gem_magics.saturation_gem": "Exbeget",
+      "item.gem_magics.mining_fatigue_gem": "Exbeget",
+      "item.gem_magics.insta_damage_gem": "Exbeget",
+      "item.gem_magics.insta_health_gem": "Exbeget",
+      "item.gem_magics.conduit_gem": "Exbeget",
+      "item.gem_magics.bad_luck_gem": "Exbeget",
+      "item.gem_magics.resistance_gem": "Exbeget",
       "item.gem_magics.dolphin_gem": "Delpurl",
+      "item.gem_magics.jump_gem": "Exbeget",
+      "item.gem_magics.speed_gem": "Exbeget",
+      "item.gem_magics.nausea_gem": "Exbeget",
+      "item.gem_magics.hunger_gem": "Exbeget",
+      "item.gem_magics.slow_falling_gem": "Exbeget",
+      "item.gem_magics.fire_res_gem": "Ardyne",
+      "item.gem_magics.weakness_gem": "Exbeget",
+      "item.gem_magics.wither_gem": "Exbeget",
+      "item.gem_magics.strength_gem": "Exbeget",
+      "item.gem_magics.absorb_gem": "Exbeget",
+      "item.gem_magics.slowness_gem": "Exbeget",
+      "item.gem_magics.blindness_gem": "Exbeget",
+      "item.gem_magics.luck_gem": "Exbeget",
+      "item.gem_magics.glow_gem": "Exbeget",
+      "item.gem_magics.poison_gem": "Exbeget",
       "item.gem_magics.haste_gem": "Acrité",
-      "item.gem_magics.blindness_gem": "Exbeget"
+      "item.gem_magics.health_boost_gem": "Exbeget",
+      "item.gem_magics.levitation_gem": "Exbeget",
+      "item.gem_magics.darkness_gem": "Exbeget",
+      "subtitles.gem_crush": "Gem crunches",
+      "item.gem_magics.water_breathing_gem": "Exbeget",
+      "item.gem_magics.invis_gem": "Exbeget",
+      "item.gem_magics.regeneration_gem": "Exbeget",
+      "item.gem_magics.night_vision_gem": "Exbeget"
     }
   },
   "foldersRoot": {
