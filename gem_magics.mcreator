@@ -492,7 +492,8 @@
           "src/main/java/net/mcreator/gemmagics/item/HungerGemItem.java",
           "src/main/resources/assets/gem_magics/models/item/hunger_gem.json"
         ]
-      }
+      },
+      "path": "~/Gems/HungerGem"
     },
     {
       "name": "BadLuckGem",
@@ -506,27 +507,14 @@
           "src/main/resources/assets/gem_magics/models/item/bad_luck_gem.json",
           "src/main/java/net/mcreator/gemmagics/item/BadLuckGemItem.java"
         ]
-      }
-    },
-    {
-      "name": "BlindGem",
-      "type": "item",
-      "sortid": 11,
-      "compiles": false,
-      "locked_code": false,
-      "registry_name": "blind_gem",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/gemmagics/item/BlindGemItem.java",
-          "src/main/resources/assets/gem_magics/models/item/blind_gem.json"
-        ]
-      }
+      },
+      "path": "~/Gems/BadLuckGem"
     },
     {
       "name": "InstaHealthGem",
       "type": "item",
       "sortid": 16,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "insta_health_gem",
       "metadata": {
@@ -534,7 +522,8 @@
           "src/main/resources/assets/gem_magics/models/item/insta_health_gem.json",
           "src/main/java/net/mcreator/gemmagics/item/InstaHealthGemItem.java"
         ]
-      }
+      },
+      "path": "~/Gems/InstaHealthGem"
     },
     {
       "name": "ConduitGem",
@@ -548,13 +537,14 @@
           "src/main/java/net/mcreator/gemmagics/item/ConduitGemItem.java",
           "src/main/resources/assets/gem_magics/models/item/conduit_gem.json"
         ]
-      }
+      },
+      "path": "~/Gems/ConduitGem"
     },
     {
       "name": "InvisGem",
       "type": "item",
       "sortid": 19,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "invis_gem",
       "metadata": {
@@ -562,7 +552,8 @@
           "src/main/resources/assets/gem_magics/models/item/invis_gem.json",
           "src/main/java/net/mcreator/gemmagics/item/InvisGemItem.java"
         ]
-      }
+      },
+      "path": "~/Gems/InvisGem"
     },
     {
       "name": "JumpGem",
@@ -576,7 +567,8 @@
           "src/main/resources/assets/gem_magics/models/item/jump_gem.json",
           "src/main/java/net/mcreator/gemmagics/item/JumpGemItem.java"
         ]
-      }
+      },
+      "path": "~/Gems/JumpGem"
     },
     {
       "name": "LevitationGem",
@@ -590,7 +582,8 @@
           "src/main/java/net/mcreator/gemmagics/item/LevitationGemItem.java",
           "src/main/resources/assets/gem_magics/models/item/levitation_gem.json"
         ]
-      }
+      },
+      "path": "~/Gems/LevitationGem"
     },
     {
       "name": "HealthBoostGem",
@@ -604,7 +597,8 @@
           "src/main/java/net/mcreator/gemmagics/item/HealthBoostGemItem.java",
           "src/main/resources/assets/gem_magics/models/item/health_boost_gem.json"
         ]
-      }
+      },
+      "path": "~/Gems/HealthBoostGem"
     },
     {
       "name": "InstaDamageGem",
@@ -618,7 +612,8 @@
           "src/main/java/net/mcreator/gemmagics/item/InstaDamageGemItem.java",
           "src/main/resources/assets/gem_magics/models/item/insta_damage_gem.json"
         ]
-      }
+      },
+      "path": "~/Gems/InstaDamageGem"
     },
     {
       "name": "GlowGem",
@@ -632,7 +627,8 @@
           "src/main/java/net/mcreator/gemmagics/item/GlowGemItem.java",
           "src/main/resources/assets/gem_magics/models/item/glow_gem.json"
         ]
-      }
+      },
+      "path": "~/Gems/GlowGem"
     },
     {
       "name": "LuckGem",
@@ -646,21 +642,38 @@
           "src/main/resources/assets/gem_magics/models/item/luck_gem.json",
           "src/main/java/net/mcreator/gemmagics/item/LuckGemItem.java"
         ]
-      }
+      },
+      "path": "~/Gems/LuckGem"
     },
     {
-      "name": "DarkGem",
+      "name": "DarknessGem",
       "type": "item",
-      "sortid": 13,
-      "compiles": false,
+      "sortid": 27,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "darkness_gem",
       "metadata": {
         "files": [
           "src/main/resources/assets/gem_magics/models/item/darkness_gem.json",
-          "src/main/java/net/mcreator/gemmagics/item/DarkGemItem.java"
+          "src/main/java/net/mcreator/gemmagics/item/DarknessGemItem.java"
         ]
-      }
+      },
+      "path": "~/Gems/DarknessGem"
+    },
+    {
+      "name": "BlindnessGem",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blindness_gem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/item/BlindnessGemItem.java",
+          "src/main/resources/assets/gem_magics/models/item/blindness_gem.json"
+        ]
+      },
+      "path": "~/Gems/BlindnessGem"
     }
   ],
   "variable_elements": [],
@@ -680,7 +693,8 @@
       "item.gem_magics.fire_res_gem": "Ardyne",
       "item.gem_magics.absorb_gem": "Exbeget",
       "item.gem_magics.dolphin_gem": "Delpurl",
-      "item.gem_magics.haste_gem": "Acrité"
+      "item.gem_magics.haste_gem": "Acrité",
+      "item.gem_magics.blindness_gem": "Exbeget"
     }
   },
   "foldersRoot": {
@@ -759,6 +773,58 @@
           },
           {
             "name": "MiningFatigueGem",
+            "children": []
+          },
+          {
+            "name": "LevitationGem",
+            "children": []
+          },
+          {
+            "name": "GlowGem",
+            "children": []
+          },
+          {
+            "name": "BlindnessGem",
+            "children": []
+          },
+          {
+            "name": "InstaHealthGem",
+            "children": []
+          },
+          {
+            "name": "DarknessGem",
+            "children": []
+          },
+          {
+            "name": "InvisGem",
+            "children": []
+          },
+          {
+            "name": "JumpGem",
+            "children": []
+          },
+          {
+            "name": "HealthBoostGem",
+            "children": []
+          },
+          {
+            "name": "HungerGem",
+            "children": []
+          },
+          {
+            "name": "ConduitGem",
+            "children": []
+          },
+          {
+            "name": "InstaDamageGem",
+            "children": []
+          },
+          {
+            "name": "BadLuckGem",
+            "children": []
+          },
+          {
+            "name": "LuckGem",
             "children": []
           }
         ]

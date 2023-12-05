@@ -34,9 +34,9 @@ import net.mcreator.gemmagics.item.HasteGemItem;
 import net.mcreator.gemmagics.item.GlowGemItem;
 import net.mcreator.gemmagics.item.FireResGemItem;
 import net.mcreator.gemmagics.item.DolphinGemItem;
-import net.mcreator.gemmagics.item.DarkGemItem;
+import net.mcreator.gemmagics.item.DarknessGemItem;
 import net.mcreator.gemmagics.item.ConduitGemItem;
-import net.mcreator.gemmagics.item.BlindGemItem;
+import net.mcreator.gemmagics.item.BlindnessGemItem;
 import net.mcreator.gemmagics.item.BadLuckGemItem;
 import net.mcreator.gemmagics.item.AbsorbGemItem;
 import net.mcreator.gemmagics.GemMagicsMod;
@@ -47,10 +47,8 @@ public class GemMagicsModItems {
 	public static Item FIRE_RES_GEM;
 	public static Item DOLPHIN_GEM;
 	public static Item WITHER_GEM;
-	public static Item BLIND_GEM;
 	public static Item CONDUIT_GEM;
 	public static Item WEAKNESS_GEM;
-	public static Item DARKNESS_GEM;
 	public static Item WATER_BREATHING_GEM;
 	public static Item GLOW_GEM;
 	public static Item STRENGTH_GEM;
@@ -73,6 +71,8 @@ public class GemMagicsModItems {
 	public static Item BAD_LUCK_GEM;
 	public static Item NAUSEA_GEM;
 	public static Item MINING_FATIGUE_GEM;
+	public static Item DARKNESS_GEM;
+	public static Item BLINDNESS_GEM;
 
 	public static void load() {
 		HASTE_GEM = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(GemMagicsMod.MODID, "haste_gem"), new HasteGemItem());
@@ -80,10 +80,8 @@ public class GemMagicsModItems {
 		FIRE_RES_GEM = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(GemMagicsMod.MODID, "fire_res_gem"), new FireResGemItem());
 		DOLPHIN_GEM = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(GemMagicsMod.MODID, "dolphin_gem"), new DolphinGemItem());
 		WITHER_GEM = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(GemMagicsMod.MODID, "wither_gem"), new WitherGemItem());
-		BLIND_GEM = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(GemMagicsMod.MODID, "blind_gem"), new BlindGemItem());
 		CONDUIT_GEM = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(GemMagicsMod.MODID, "conduit_gem"), new ConduitGemItem());
 		WEAKNESS_GEM = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(GemMagicsMod.MODID, "weakness_gem"), new WeaknessGemItem());
-		DARKNESS_GEM = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(GemMagicsMod.MODID, "darkness_gem"), new DarkGemItem());
 		WATER_BREATHING_GEM = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(GemMagicsMod.MODID, "water_breathing_gem"), new WaterBreathingGemItem());
 		GLOW_GEM = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(GemMagicsMod.MODID, "glow_gem"), new GlowGemItem());
 		STRENGTH_GEM = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(GemMagicsMod.MODID, "strength_gem"), new StrengthGemItem());
@@ -106,6 +104,8 @@ public class GemMagicsModItems {
 		BAD_LUCK_GEM = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(GemMagicsMod.MODID, "bad_luck_gem"), new BadLuckGemItem());
 		NAUSEA_GEM = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(GemMagicsMod.MODID, "nausea_gem"), new NauseaGemItem());
 		MINING_FATIGUE_GEM = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(GemMagicsMod.MODID, "mining_fatigue_gem"), new MiningFatigueGemItem());
+		DARKNESS_GEM = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(GemMagicsMod.MODID, "darkness_gem"), new DarknessGemItem());
+		BLINDNESS_GEM = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(GemMagicsMod.MODID, "blindness_gem"), new BlindnessGemItem());
 	}
 
 	public static void clientLoad() {
