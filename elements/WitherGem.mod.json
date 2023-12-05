@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "light_yellow_gem",
+    "texture": "black_gem",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
@@ -14,7 +14,7 @@
     },
     "stackSize": 16,
     "enchantability": 0,
-    "useDuration": 50,
+    "useDuration": 32,
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
@@ -27,14 +27,14 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "It radiates with a lively energy."
+      "scrimbly scrimblo :3"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onFinishUsingItem": {
-      "name": "AbsorbGemPlayerFinishesUsingItem"
+      "name": "WitherGemPlayerFinishesUsingItem"
     },
     "isFood": true,
     "nutritionalValue": 0,

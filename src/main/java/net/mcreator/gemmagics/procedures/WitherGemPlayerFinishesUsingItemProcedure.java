@@ -11,15 +11,14 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.network.chat.Component;
-import net.minecraft.core.particles.SimpleParticleType;
+import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.BlockPos;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.CommandSource;
 
 import net.mcreator.gemmagics.init.GemMagicsModSounds;
-import net.mcreator.gemmagics.init.GemMagicsModParticleTypes;
 
-public class AbsorbGemPlayerFinishesUsingItemProcedure {
+public class WitherGemPlayerFinishesUsingItemProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
@@ -41,7 +40,7 @@ public class AbsorbGemPlayerFinishesUsingItemProcedure {
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						"/stopsound @a * minecraft:entity.generic.eat");
 			if (world instanceof ServerLevel _level)
-				_level.sendParticles((SimpleParticleType) (GemMagicsModParticleTypes.ABSORB_PARTICLE), x, y, z, 6, 0.5, 1, 0.5, 1);
+				_level.sendParticles(ParticleTypes.DAMAGE_INDICATOR, x, y, z, 6, 0.5, 1, 0.5, 1);
 		}
 	}
 }

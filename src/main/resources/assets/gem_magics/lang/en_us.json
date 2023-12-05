@@ -1,7 +1,21 @@
 {
-  "subtitles.gem_crush": "Gem crunches",
-  "item.gem_magics.fire_res_gem": "Ardyne",
-  "item.gem_magics.absorb_gem": "Exbeget",
+  "item.gem_magics.saturation_gem": "Exbeget",
+  "item.gem_magics.mining_fatigue_gem": "Exbeget",
+  "item.gem_magics.resistance_gem": "Exbeget",
+  "item.gem_magics.poison_gem": "Exbeget",
   "item.gem_magics.dolphin_gem": "Delpurl",
-  "item.gem_magics.haste_gem": "Acrité"
+  "item.gem_magics.haste_gem": "Acrité",
+  "item.gem_magics.speed_gem": "Exbeget",
+  "item.gem_magics.nausea_gem": "Exbeget",
+  "subtitles.gem_crush": "Gem crushes",
+  "item.gem_magics.water_breathing_gem": "Exbeget",
+  "item.gem_magics.slow_falling_gem": "Exbeget",
+  "item.gem_magics.fire_res_gem": "Ardyne",
+  "item.gem_magics.wither_gem": "Exbeget",
+  "item.gem_magics.weakness_gem": "Exbeget",
+  "item.gem_magics.strength_gem": "Exbeget",
+  "item.gem_magics.regeneration_gem": "Exbeget",
+  "item.gem_magics.absorb_gem": "Exbeget",
+  "item.gem_magics.slowness_gem": "Exbeget",
+  "item.gem_magics.night_vision_gem": "Exbeget"
 }
