@@ -11,47 +11,29 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.network.chat.Component;
-import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraft.core.BlockPos;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.CommandSource;
 
 import net.mcreator.gemmagics.init.GemMagicsModSounds;
+import net.mcreator.gemmagics.init.GemMagicsModParticleTypes;
 
-public class RedGemPlayerFinishesUsingItemProcedure {
+public class AbsorptionGemPlayerFinishesUsingItemProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
 		double randNum = 0;
 		if (!world.isClientSide()) {
-			randNum = Math.random();
-			if (randNum > 0.66) {
-				if (world instanceof Level _level) {
-					if (!_level.isClientSide()) {
-						_level.playSound(null, BlockPos.containing(x, y, z), GemMagicsModSounds.GEM_CRUSH, SoundSource.PLAYERS, 1, (float) 0.95);
-					} else {
-						_level.playLocalSound(x, y, z, GemMagicsModSounds.GEM_CRUSH, SoundSource.PLAYERS, 1, (float) 0.95, false);
-					}
-				}
-			} else if (randNum > 0.33) {
-				if (world instanceof Level _level) {
-					if (!_level.isClientSide()) {
-						_level.playSound(null, BlockPos.containing(x, y, z), GemMagicsModSounds.GEM_CRUSH, SoundSource.PLAYERS, 1, (float) 1.05);
-					} else {
-						_level.playLocalSound(x, y, z, GemMagicsModSounds.GEM_CRUSH, SoundSource.PLAYERS, 1, (float) 1.05, false);
-					}
-				}
-			} else {
-				if (world instanceof Level _level) {
-					if (!_level.isClientSide()) {
-						_level.playSound(null, BlockPos.containing(x, y, z), GemMagicsModSounds.GEM_CRUSH, SoundSource.PLAYERS, 1, 1);
-					} else {
-						_level.playLocalSound(x, y, z, GemMagicsModSounds.GEM_CRUSH, SoundSource.PLAYERS, 1, 1, false);
-					}
+			if (world instanceof Level _level) {
+				if (!_level.isClientSide()) {
+					_level.playSound(null, BlockPos.containing(x, y, z), GemMagicsModSounds.GEM_CRUSH, SoundSource.PLAYERS, 1, 1);
+				} else {
+					_level.playLocalSound(x, y, z, GemMagicsModSounds.GEM_CRUSH, SoundSource.PLAYERS, 1, 1, false);
 				}
 			}
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 300, 1));
+				_entity.addEffect(new MobEffectInstance(MobEffects.ABSORPTION, 300, 1));
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						"/stopsound @a * minecraft:entity.player.burp");
@@ -59,7 +41,7 @@ public class RedGemPlayerFinishesUsingItemProcedure {
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						"/stopsound @a * minecraft:entity.generic.eat");
 			if (world instanceof ServerLevel _level)
-				_level.sendParticles(ParticleTypes.LAVA, x, y, z, 6, 0.5, 1, 0.5, 1);
+				_level.sendParticles((SimpleParticleType) (GemMagicsModParticleTypes.ABSORPTION_PARTICLE), x, y, z, 6, 0.5, 1, 0.5, 1);
 		}
 	}
 }

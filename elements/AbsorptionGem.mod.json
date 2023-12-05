@@ -34,7 +34,7 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onFinishUsingItem": {
-      "name": "AbsorbGemPlayerFinishesUsingItem"
+      "name": "AbsorptionGemPlayerFinishesUsingItem"
     },
     "isFood": true,
     "nutritionalValue": 0,

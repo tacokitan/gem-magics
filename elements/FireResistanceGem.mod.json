@@ -34,7 +34,7 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onFinishUsingItem": {
-      "name": "RedGemPlayerFinishesUsingItem"
+      "name": "FireResistanceGemPlayerFinishesUsingItem"
     },
     "isFood": true,
     "nutritionalValue": 0,

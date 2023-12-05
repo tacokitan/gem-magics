@@ -12,8 +12,6 @@ import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.gemmagics.procedures.AbsorbGemPlayerFinishesUsingItemProcedure;
-
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 
 import java.util.List;
@@ -49,7 +47,7 @@ public class WeaknessGemItem extends Item {
 		double y = entity.getY();
 		double z = entity.getZ();
 
-		AbsorbGemPlayerFinishesUsingItemProcedure.execute(world, x, y, z, entity);
+		AbsorbGemPlayerFinishesUsingItemProcedure.execute();
 		return retval;
 	}
 }

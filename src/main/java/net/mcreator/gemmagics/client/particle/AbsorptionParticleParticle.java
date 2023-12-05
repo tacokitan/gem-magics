@@ -13,26 +13,26 @@ import net.fabricmc.api.Environment;
 import net.fabricmc.api.EnvType;
 
 @Environment(EnvType.CLIENT)
-public class AbsorbParticleParticle extends TextureSheetParticle {
-	public static AbsorbParticleParticleProvider provider(SpriteSet spriteSet) {
-		return new AbsorbParticleParticleProvider(spriteSet);
+public class AbsorptionParticleParticle extends TextureSheetParticle {
+	public static AbsorptionParticleParticleProvider provider(SpriteSet spriteSet) {
+		return new AbsorptionParticleParticleProvider(spriteSet);
 	}
 
-	public static class AbsorbParticleParticleProvider implements ParticleProvider<SimpleParticleType> {
+	public static class AbsorptionParticleParticleProvider implements ParticleProvider<SimpleParticleType> {
 		private final SpriteSet spriteSet;
 
-		public AbsorbParticleParticleProvider(SpriteSet spriteSet) {
+		public AbsorptionParticleParticleProvider(SpriteSet spriteSet) {
 			this.spriteSet = spriteSet;
 		}
 
 		public Particle createParticle(SimpleParticleType typeIn, ClientLevel worldIn, double x, double y, double z, double xSpeed, double ySpeed, double zSpeed) {
-			return new AbsorbParticleParticle(worldIn, x, y, z, xSpeed, ySpeed, zSpeed, this.spriteSet);
+			return new AbsorptionParticleParticle(worldIn, x, y, z, xSpeed, ySpeed, zSpeed, this.spriteSet);
 		}
 	}
 
 	private final SpriteSet spriteSet;
 
-	protected AbsorbParticleParticle(ClientLevel world, double x, double y, double z, double vx, double vy, double vz, SpriteSet spriteSet) {
+	protected AbsorptionParticleParticle(ClientLevel world, double x, double y, double z, double vx, double vy, double vz, SpriteSet spriteSet) {
 		super(world, x, y, z);
 		this.spriteSet = spriteSet;
 		this.setSize((float) 0.2, (float) 0.2);

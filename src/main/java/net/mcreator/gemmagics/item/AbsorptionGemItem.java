@@ -12,14 +12,14 @@ import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.gemmagics.procedures.AbsorbGemPlayerFinishesUsingItemProcedure;
+import net.mcreator.gemmagics.procedures.AbsorptionGemPlayerFinishesUsingItemProcedure;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 
 import java.util.List;
 
-public class InstaHealthGemItem extends Item {
-	public InstaHealthGemItem() {
+public class AbsorptionGemItem extends Item {
+	public AbsorptionGemItem() {
 		super(new Item.Properties().stacksTo(16).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(0).saturationMod(0f).alwaysEat()
 
 				.build()));
@@ -33,7 +33,7 @@ public class InstaHealthGemItem extends Item {
 
 	@Override
 	public int getUseDuration(ItemStack itemstack) {
-		return 32;
+		return 50;
 	}
 
 	@Override
@@ -49,7 +49,7 @@ public class InstaHealthGemItem extends Item {
 		double y = entity.getY();
 		double z = entity.getZ();
 
-		AbsorbGemPlayerFinishesUsingItemProcedure.execute(world, x, y, z, entity);
+		AbsorptionGemPlayerFinishesUsingItemProcedure.execute(world, x, y, z, entity);
 		return retval;
 	}
 }
