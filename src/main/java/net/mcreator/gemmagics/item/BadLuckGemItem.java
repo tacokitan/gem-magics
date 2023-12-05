@@ -12,8 +12,6 @@ import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.gemmagics.procedures.BadLuckGemPlayerFinishesUsingItemProcedure;
-
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 
 import java.util.List;
@@ -33,7 +31,7 @@ public class BadLuckGemItem extends Item {
 
 	@Override
 	public int getUseDuration(ItemStack itemstack) {
-		return 50;
+		return 32;
 	}
 
 	@Override
@@ -49,7 +47,7 @@ public class BadLuckGemItem extends Item {
 		double y = entity.getY();
 		double z = entity.getZ();
 
-		BadLuckGemPlayerFinishesUsingItemProcedure.execute(world, x, y, z, entity);
+		AbsorbGemPlayerFinishesUsingItemProcedure.execute();
 		return retval;
 	}
 }

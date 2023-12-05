@@ -1,0 +1,49 @@
+{
+  "_fv": 47,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "red_gem",
+    "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
+    "name": "Ardyne",
+    "rarity": "COMMON",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "stackSize": 16,
+    "enchantability": 0,
+    "useDuration": 50,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": true,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "It feels hot to the touch."
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onFinishUsingItem": {
+      "name": "FireResistanceGemPlayerFinishesUsingItem"
+    },
+    "isFood": true,
+    "nutritionalValue": 0,
+    "saturation": 0.0,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": true,
+    "animation": "spear"
+  }
+}
