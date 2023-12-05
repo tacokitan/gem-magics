@@ -4,7 +4,7 @@
       "name": "HasteGem",
       "type": "item",
       "sortid": 3,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "haste_gem",
       "metadata": {
@@ -19,7 +19,7 @@
       "name": "HasteGemPlayerFinishesUsingItem",
       "type": "procedure",
       "sortid": 1,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "haste_gem_player_finishes_using_item",
       "metadata": {
@@ -55,7 +55,7 @@
       "name": "AbsorbGemPlayerFinishesUsingItem",
       "type": "procedure",
       "sortid": 1,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "absorb_gem_player_finishes_using_item",
       "metadata": {
@@ -91,7 +91,7 @@
       "name": "AbsorbGem",
       "type": "item",
       "sortid": 3,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "absorb_gem",
       "metadata": {
@@ -106,7 +106,7 @@
       "name": "FireResGem",
       "type": "item",
       "sortid": 4,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "fire_res_gem",
       "metadata": {
@@ -121,7 +121,7 @@
       "name": "RedGemPlayerFinishesUsingItem",
       "type": "procedure",
       "sortid": 5,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "red_gem_player_finishes_using_item",
       "metadata": {
@@ -159,7 +159,8 @@
   "language_map": {
     "en_us": {
       "item.gem_magics.fire_res_gem": "Ardyne",
-      "item.gem_magics.absorb_gem": "Exbeget"
+      "item.gem_magics.absorb_gem": "Exbeget",
+      "item.gem_magics.haste_gem": "Acrité"
     }
   },
   "foldersRoot": {
