@@ -6,6 +6,14 @@
       {
         "name": "gem_magics:gem_crush_01",
         "stream": false
+      },
+      {
+        "name": "gem_magics:gem_crush_02",
+        "stream": false
+      },
+      {
+        "name": "gem_magics:gem_crush_03",
+        "stream": false
       }
     ]
   }

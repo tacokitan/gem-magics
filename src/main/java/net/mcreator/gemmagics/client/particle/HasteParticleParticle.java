@@ -37,7 +37,7 @@ public class HasteParticleParticle extends TextureSheetParticle {
 		this.spriteSet = spriteSet;
 		this.setSize((float) 0.2, (float) 0.2);
 		this.quadSize *= (float) 1;
-		this.lifetime = 14;
+		this.lifetime = 13;
 		this.gravity = (float) 0;
 		this.hasPhysics = true;
 		this.xd = vx * 0.01;

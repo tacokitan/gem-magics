@@ -240,7 +240,9 @@
     {
       "name": "gem_crush",
       "files": [
-        "gem_crush_01"
+        "gem_crush_01",
+        "gem_crush_02",
+        "gem_crush_03"
       ],
       "category": "player",
       "subtitle": "Gem crunches"

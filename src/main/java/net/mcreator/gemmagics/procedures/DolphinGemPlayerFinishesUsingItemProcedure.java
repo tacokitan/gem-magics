@@ -24,30 +24,11 @@ public class DolphinGemPlayerFinishesUsingItemProcedure {
 			return;
 		double randNum = 0;
 		if (!world.isClientSide()) {
-			randNum = Math.random();
-			if (randNum > 0.66) {
-				if (world instanceof Level _level) {
-					if (!_level.isClientSide()) {
-						_level.playSound(null, BlockPos.containing(x, y, z), GemMagicsModSounds.GEM_CRUSH, SoundSource.PLAYERS, 1, (float) 0.95);
-					} else {
-						_level.playLocalSound(x, y, z, GemMagicsModSounds.GEM_CRUSH, SoundSource.PLAYERS, 1, (float) 0.95, false);
-					}
-				}
-			} else if (randNum > 0.33) {
-				if (world instanceof Level _level) {
-					if (!_level.isClientSide()) {
-						_level.playSound(null, BlockPos.containing(x, y, z), GemMagicsModSounds.GEM_CRUSH, SoundSource.PLAYERS, 1, (float) 1.05);
-					} else {
-						_level.playLocalSound(x, y, z, GemMagicsModSounds.GEM_CRUSH, SoundSource.PLAYERS, 1, (float) 1.05, false);
-					}
-				}
-			} else {
-				if (world instanceof Level _level) {
-					if (!_level.isClientSide()) {
-						_level.playSound(null, BlockPos.containing(x, y, z), GemMagicsModSounds.GEM_CRUSH, SoundSource.PLAYERS, 1, 1);
-					} else {
-						_level.playLocalSound(x, y, z, GemMagicsModSounds.GEM_CRUSH, SoundSource.PLAYERS, 1, 1, false);
-					}
+			if (world instanceof Level _level) {
+				if (!_level.isClientSide()) {
+					_level.playSound(null, BlockPos.containing(x, y, z), GemMagicsModSounds.GEM_CRUSH, SoundSource.PLAYERS, 1, 1);
+				} else {
+					_level.playLocalSound(x, y, z, GemMagicsModSounds.GEM_CRUSH, SoundSource.PLAYERS, 1, 1, false);
 				}
 			}
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
@@ -59,7 +40,7 @@ public class DolphinGemPlayerFinishesUsingItemProcedure {
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						"/stopsound @a * minecraft:entity.generic.eat");
 			if (world instanceof ServerLevel _level)
-				_level.sendParticles(ParticleTypes.BUBBLE_POP, x, y, z, 6, 0.5, 1, 0.5, 1);
+				_level.sendParticles(ParticleTypes.BUBBLE_COLUMN_UP, x, y, z, 6, 0.5, 1, 0.5, 1);
 		}
 	}
 }

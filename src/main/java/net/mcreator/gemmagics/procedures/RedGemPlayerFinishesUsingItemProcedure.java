@@ -24,30 +24,11 @@ public class RedGemPlayerFinishesUsingItemProcedure {
 			return;
 		double randNum = 0;
 		if (!world.isClientSide()) {
-			randNum = Math.random();
-			if (randNum > 0.66) {
-				if (world instanceof Level _level) {
-					if (!_level.isClientSide()) {
-						_level.playSound(null, BlockPos.containing(x, y, z), GemMagicsModSounds.GEM_CRUSH, SoundSource.PLAYERS, 1, (float) 0.95);
-					} else {
-						_level.playLocalSound(x, y, z, GemMagicsModSounds.GEM_CRUSH, SoundSource.PLAYERS, 1, (float) 0.95, false);
-					}
-				}
-			} else if (randNum > 0.33) {
-				if (world instanceof Level _level) {
-					if (!_level.isClientSide()) {
-						_level.playSound(null, BlockPos.containing(x, y, z), GemMagicsModSounds.GEM_CRUSH, SoundSource.PLAYERS, 1, (float) 1.05);
-					} else {
-						_level.playLocalSound(x, y, z, GemMagicsModSounds.GEM_CRUSH, SoundSource.PLAYERS, 1, (float) 1.05, false);
-					}
-				}
-			} else {
-				if (world instanceof Level _level) {
-					if (!_level.isClientSide()) {
-						_level.playSound(null, BlockPos.containing(x, y, z), GemMagicsModSounds.GEM_CRUSH, SoundSource.PLAYERS, 1, 1);
-					} else {
-						_level.playLocalSound(x, y, z, GemMagicsModSounds.GEM_CRUSH, SoundSource.PLAYERS, 1, 1, false);
-					}
+			if (world instanceof Level _level) {
+				if (!_level.isClientSide()) {
+					_level.playSound(null, BlockPos.containing(x, y, z), GemMagicsModSounds.GEM_CRUSH, SoundSource.PLAYERS, 1, 1);
+				} else {
+					_level.playLocalSound(x, y, z, GemMagicsModSounds.GEM_CRUSH, SoundSource.PLAYERS, 1, 1, false);
 				}
 			}
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
