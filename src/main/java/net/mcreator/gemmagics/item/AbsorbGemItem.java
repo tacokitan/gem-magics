@@ -33,7 +33,7 @@ public class AbsorbGemItem extends Item {
 
 	@Override
 	public int getUseDuration(ItemStack itemstack) {
-		return 32;
+		return 50;
 	}
 
 	@Override

@@ -10,7 +10,7 @@
     "scale": 1.0,
     "speedFactor": 0.01,
     "gravity": 0.0,
-    "maxAge": 14,
+    "maxAge": 13,
     "maxAgeDiff": 0,
     "angularVelocity": 0.0,
     "angularAcceleration": 0.0,
