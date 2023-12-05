@@ -484,6 +484,36 @@
       "path": "~/Gems/BlindnessGem"
     },
     {
+      "name": "BadLuckParticle",
+      "type": "particle",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bad_luck_particle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/client/particle/BadLuckParticleParticle.java",
+          "src/main/resources/assets/gem_magics/particles/bad_luck_particle.json"
+        ]
+      },
+      "path": "~/Gems/BadLuckGem"
+    },
+    {
+      "name": "AbsorptionParticle",
+      "type": "particle",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "absorption_particle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gem_magics/particles/absorption_particle.json",
+          "src/main/java/net/mcreator/gemmagics/client/particle/AbsorptionParticleParticle.java"
+        ]
+      },
+      "path": "~/Gems/AbsorptionGem"
+    },
+    {
       "name": "AbsorptionGem",
       "type": "item",
       "sortid": 29,
@@ -497,6 +527,21 @@
         ]
       },
       "path": "~/Gems/AbsorptionGem"
+    },
+    {
+      "name": "InvisibilityGem",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisibility_gem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/item/InvisibilityGemItem.java",
+          "src/main/resources/assets/gem_magics/models/item/invisibility_gem.json"
+        ]
+      },
+      "path": "~/Gems/InvisibilityGem"
     },
     {
       "name": "AbsorptionGemPlayerFinishesUsingItem",
@@ -530,21 +575,6 @@
             "name": "world",
             "type": "world"
           }
-        ]
-      },
-      "path": "~/Gems/AbsorptionGem"
-    },
-    {
-      "name": "AbsorptionParticle",
-      "type": "particle",
-      "sortid": 30,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "absorption_particle",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/gem_magics/particles/absorption_particle.json",
-          "src/main/java/net/mcreator/gemmagics/client/particle/AbsorptionParticleParticle.java"
         ]
       },
       "path": "~/Gems/AbsorptionGem"
@@ -616,6 +646,21 @@
       "path": "~/Gems/GlowingGem"
     },
     {
+      "name": "JumpBoostGem",
+      "type": "item",
+      "sortid": 38,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "jump_boost_gem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/item/JumpBoostGemItem.java",
+          "src/main/resources/assets/gem_magics/models/item/jump_boost_gem.json"
+        ]
+      },
+      "path": "~/Gems/JumpBoostGem"
+    },
+    {
       "name": "InstantDamageGem",
       "type": "item",
       "sortid": 35,
@@ -644,36 +689,6 @@
         ]
       },
       "path": "~/Gems/InstantHealthGem"
-    },
-    {
-      "name": "InvisibilityGem",
-      "type": "item",
-      "sortid": 37,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "invisibility_gem",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/gemmagics/item/InvisibilityGemItem.java",
-          "src/main/resources/assets/gem_magics/models/item/invisibility_gem.json"
-        ]
-      },
-      "path": "~/Gems/InvisibilityGem"
-    },
-    {
-      "name": "JumpBoostGem",
-      "type": "item",
-      "sortid": 38,
-      "compiles": false,
-      "locked_code": false,
-      "registry_name": "jump_boost_gem",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/gemmagics/item/JumpBoostGemItem.java",
-          "src/main/resources/assets/gem_magics/models/item/jump_boost_gem.json"
-        ]
-      },
-      "path": "~/Gems/JumpBoostGem"
     }
   ],
   "variable_elements": [],
@@ -689,8 +704,8 @@
   ],
   "language_map": {
     "en_us": {
-      "item.gem_magics.saturation_gem": "Exbeget",
       "item.gem_magics.instant_health_gem": "Exbeget",
+      "item.gem_magics.saturation_gem": "Exbeget",
       "item.gem_magics.mining_fatigue_gem": "Exbeget",
       "item.gem_magics.instant_damage_gem": "Exbeget",
       "item.gem_magics.glowing_gem": "Exbeget",
@@ -703,7 +718,6 @@
       "item.gem_magics.hunger_gem": "Exbeget",
       "item.gem_magics.slow_falling_gem": "Exbeget",
       "item.gem_magics.weakness_gem": "Exbeget",
-      "item.gem_magics.wither_gem": "Exbeget",
       "item.gem_magics.strength_gem": "Exbeget",
       "item.gem_magics.slowness_gem": "Exbeget",
       "item.gem_magics.blindness_gem": "Exbeget",

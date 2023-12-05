@@ -1,18 +1,5 @@
 {
   "textures": [
-    "gem_magics:absorption_particle_1",
-    "gem_magics:absorption_particle_2",
-    "gem_magics:absorption_particle_3",
-    "gem_magics:absorption_particle_4",
-    "gem_magics:absorption_particle_5",
-    "gem_magics:absorption_particle_6",
-    "gem_magics:absorption_particle_7",
-    "gem_magics:absorption_particle_8",
-    "gem_magics:absorption_particle_9",
-    "gem_magics:absorption_particle_10",
-    "gem_magics:absorption_particle_11",
-    "gem_magics:absorption_particle_12",
-    "gem_magics:absorption_particle_13",
-    "gem_magics:absorption_particle_14"
+    "gem_magics:absorption_particle"
   ]
 }

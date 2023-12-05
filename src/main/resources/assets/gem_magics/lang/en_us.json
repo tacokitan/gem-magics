@@ -1,6 +1,6 @@
 {
-  "item.gem_magics.saturation_gem": "Exbeget",
   "item.gem_magics.instant_health_gem": "Exbeget",
+  "item.gem_magics.saturation_gem": "Exbeget",
   "item.gem_magics.mining_fatigue_gem": "Exbeget",
   "item.gem_magics.instant_damage_gem": "Exbeget",
   "item.gem_magics.glowing_gem": "Exbeget",
@@ -13,7 +13,6 @@
   "item.gem_magics.hunger_gem": "Exbeget",
   "item.gem_magics.slow_falling_gem": "Exbeget",
   "item.gem_magics.weakness_gem": "Exbeget",
-  "item.gem_magics.wither_gem": "Exbeget",
   "item.gem_magics.strength_gem": "Exbeget",
   "item.gem_magics.slowness_gem": "Exbeget",
   "item.gem_magics.blindness_gem": "Exbeget",
