@@ -9,8 +9,8 @@
       "registry_name": "haste_gem",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gem_magics/models/item/haste_gem.json",
-          "src/main/java/net/mcreator/gemmagics/item/HasteGemItem.java"
+          "src/main/java/net/mcreator/gemmagics/item/HasteGemItem.java",
+          "src/main/resources/assets/gem_magics/models/item/haste_gem.json"
         ]
       },
       "path": "~/Gems/HasteGem"
@@ -50,42 +50,6 @@
         ]
       },
       "path": "~/Gems/HasteGem"
-    },
-    {
-      "name": "AbsorbGemPlayerFinishesUsingItem",
-      "type": "procedure",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "absorb_gem_player_finishes_using_item",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/gemmagics/procedures/AbsorbGemPlayerFinishesUsingItemProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Gems/AbsorbGem"
     },
     {
       "name": "AbsorbGem",
@@ -154,21 +118,6 @@
       "path": "~/Gems/FireResGem"
     },
     {
-      "name": "HasteParticle",
-      "type": "particle",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "haste_particle",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/gemmagics/client/particle/HasteParticleParticle.java",
-          "src/main/resources/assets/gem_magics/particles/haste_particle.json"
-        ]
-      },
-      "path": "~/Gems/HasteGem"
-    },
-    {
       "name": "DolphinGemPlayerFinishesUsingItem",
       "type": "procedure",
       "sortid": 6,
@@ -213,8 +162,8 @@
       "registry_name": "dolphin_gem",
       "metadata": {
         "files": [
-          "src/main/resources/assets/gem_magics/models/item/dolphin_gem.json",
-          "src/main/java/net/mcreator/gemmagics/item/DolphinGemItem.java"
+          "src/main/java/net/mcreator/gemmagics/item/DolphinGemItem.java",
+          "src/main/resources/assets/gem_magics/models/item/dolphin_gem.json"
         ]
       },
       "path": "~/Gems/DolphinGem"
@@ -233,6 +182,57 @@
         ]
       },
       "path": "~/Gems/AbsorbGem"
+    },
+    {
+      "name": "AbsorbGemPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "absorb_gem_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/procedures/AbsorbGemPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gems/AbsorbGem"
+    },
+    {
+      "name": "HasteParticle",
+      "type": "particle",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "haste_particle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gem_magics/particles/haste_particle.json",
+          "src/main/java/net/mcreator/gemmagics/client/particle/HasteParticleParticle.java"
+        ]
+      },
+      "path": "~/Gems/HasteGem"
     }
   ],
   "variable_elements": [],
@@ -240,9 +240,7 @@
     {
       "name": "gem_crush",
       "files": [
-        "gem_crush_01",
-        "gem_crush_02",
-        "gem_crush_03"
+        "gem_crush_01"
       ],
       "category": "player",
       "subtitle": "Gem crunches"
@@ -264,10 +262,6 @@
         "name": "Gems",
         "children": [
           {
-            "name": "DolphinGem",
-            "children": []
-          },
-          {
             "name": "AbsorbGem",
             "children": []
           },
@@ -277,6 +271,10 @@
           },
           {
             "name": "HasteGem",
+            "children": []
+          },
+          {
+            "name": "DolphinGem",
             "children": []
           }
         ]
@@ -297,6 +295,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "fabric-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.gemmagics",
     "lockBaseModFiles": false
   },
