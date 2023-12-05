@@ -4,9 +4,9 @@ package net.mcreator.gemmagics.item;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import com.google.common.collect.Multimap;
 
-public class PoisonGemItem extends Item {
+public class LuckGemItem extends Item {
 
-	public PoisonGemItem() {
+	public LuckGemItem() {
 		super(new Item.Properties().stacksTo(16).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(0).saturationMod(0f).alwaysEat()
 
 				.build()));
@@ -21,7 +21,7 @@ public class PoisonGemItem extends Item {
 
 	@Override
 	public int getUseDuration(ItemStack itemstack) {
-		return 50;
+		return 32;
 	}
 
 	@Override
