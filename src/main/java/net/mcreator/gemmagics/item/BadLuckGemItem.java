@@ -39,7 +39,7 @@ public class BadLuckGemItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("Casts an aura of foreboding misfortune."));
+		list.add(Component.literal("It casts an aura of foreboding misfortune."));
 	}
 
 	@Override

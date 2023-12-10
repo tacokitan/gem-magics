@@ -27,7 +27,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "Envelops surroundings in sightless obscurity."
+      "It envelops surroundings in sightless obscurity."
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

@@ -27,7 +27,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "Casts an aura of foreboding misfortune."
+      "It casts an aura of foreboding misfortune."
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

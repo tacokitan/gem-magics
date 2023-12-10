@@ -39,7 +39,7 @@ public class AbsorptionGemItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("Projects an aura of unyielding resilience."));
+		list.add(Component.literal("It projects an aura of unyielding resilience."));
 	}
 
 	@Override

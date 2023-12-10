@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "light_yellow_gem",
+    "texture": "absorbheart",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
@@ -27,7 +27,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "Projects an aura of unyielding resilience."
+      "It projects an aura of unyielding resilience."
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

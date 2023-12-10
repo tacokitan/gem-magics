@@ -39,7 +39,7 @@ public class BlindnessGemItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("Envelops surroundings in sightless obscurity."));
+		list.add(Component.literal("It envelops surroundings in sightless obscurity."));
 	}
 
 	@Override
