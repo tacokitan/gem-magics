@@ -27,7 +27,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "It radiates with a lively energy."
+      "Projects an aura of unyielding resilience."
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

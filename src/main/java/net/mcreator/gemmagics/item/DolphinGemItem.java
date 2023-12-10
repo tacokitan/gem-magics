@@ -39,7 +39,7 @@ public class DolphinGemItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("You hear the sound of waves emitting from it."));
+		list.add(Component.literal("Radiates the fluid agility of oceanic companions."));
 	}
 
 	@Override

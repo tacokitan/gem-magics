@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "light_yellow_gem",
+    "texture": "differentblue_gem",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Exbeget",
+    "name": "Abystal",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "TOOLS"
@@ -27,14 +27,14 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "It radiates with a lively energy."
+      "Harnesses the depths' potent energy currents."
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onFinishUsingItem": {
-      "name": "AbsorbGemPlayerFinishesUsingItem"
+      "name": "ConduitGemPlayerFinishesUsingItem"
     },
     "isFood": true,
     "nutritionalValue": 0,

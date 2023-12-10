@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Exbeget",
+    "name": "Umbreil",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "TOOLS"
@@ -27,14 +27,14 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "It radiates with a lively energy."
+      "Envelops surroundings in sightless obscurity."
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onFinishUsingItem": {
-      "name": "AbsorbGemPlayerFinishesUsingItem"
+      "name": "BlindnessGemPlayerFinishesUsingItem"
     },
     "isFood": true,
     "nutritionalValue": 0,

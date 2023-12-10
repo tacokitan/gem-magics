@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "light_yellow_gem",
+    "texture": "purple_gem",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Exbeget",
+    "name": "Noctilucidum",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "TOOLS"
@@ -27,14 +27,14 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "It radiates with a lively energy."
+      "Pierces darkness with a revealing nocturnal sight."
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onFinishUsingItem": {
-      "name": "AbsorbGemPlayerFinishesUsingItem"
+      "name": "NightVisionGemPlayerFinishesUsingItem"
     },
     "isFood": true,
     "nutritionalValue": 0,

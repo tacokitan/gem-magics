@@ -151,7 +151,7 @@
       "name": "HealthBoostGem",
       "type": "item",
       "sortid": 17,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "health_boost_gem",
       "metadata": {
@@ -196,7 +196,7 @@
       "name": "BadLuckGem",
       "type": "item",
       "sortid": 23,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "bad_luck_gem",
       "metadata": {
@@ -234,7 +234,8 @@
           "src/main/resources/assets/gem_magics/models/item/mining_fatigue_gem.json",
           "src/main/java/net/mcreator/gemmagics/item/MiningFatigueGemItem.java"
         ]
-      }
+      },
+      "path": "~/Gems/MiningFatigueGem"
     },
     {
       "name": "PoisonGem",
@@ -248,7 +249,8 @@
           "src/main/resources/assets/gem_magics/models/item/poison_gem.json",
           "src/main/java/net/mcreator/gemmagics/item/PoisonGemItem.java"
         ]
-      }
+      },
+      "path": "~/Gems/PoisonGem"
     },
     {
       "name": "WaterBreathingGem",
@@ -262,7 +264,8 @@
           "src/main/java/net/mcreator/gemmagics/item/WaterBreathingGemItem.java",
           "src/main/resources/assets/gem_magics/models/item/water_breathing_gem.json"
         ]
-      }
+      },
+      "path": "~/Gems/WaterBreathingGem"
     },
     {
       "name": "SaturationGem",
@@ -276,7 +279,8 @@
           "src/main/java/net/mcreator/gemmagics/item/SaturationGemItem.java",
           "src/main/resources/assets/gem_magics/models/item/saturation_gem.json"
         ]
-      }
+      },
+      "path": "~/Gems/SaturationGem"
     },
     {
       "name": "RegenerationGem",
@@ -290,7 +294,8 @@
           "src/main/resources/assets/gem_magics/models/item/regeneration_gem.json",
           "src/main/java/net/mcreator/gemmagics/item/RegenerationGemItem.java"
         ]
-      }
+      },
+      "path": "~/Gems/RegenerationGem"
     },
     {
       "name": "StrengthGem",
@@ -304,7 +309,8 @@
           "src/main/resources/assets/gem_magics/models/item/strength_gem.json",
           "src/main/java/net/mcreator/gemmagics/item/StrengthGemItem.java"
         ]
-      }
+      },
+      "path": "~/Gems/StrengthGem"
     },
     {
       "name": "WeaknessGem",
@@ -318,7 +324,8 @@
           "src/main/resources/assets/gem_magics/models/item/weakness_gem.json",
           "src/main/java/net/mcreator/gemmagics/item/WeaknessGemItem.java"
         ]
-      }
+      },
+      "path": "~/Gems/WeaknessGem"
     },
     {
       "name": "WitherGem",
@@ -332,7 +339,8 @@
           "src/main/resources/assets/gem_magics/models/item/wither_gem.json",
           "src/main/java/net/mcreator/gemmagics/item/WitherGemItem.java"
         ]
-      }
+      },
+      "path": "~/Gems/WitherGem"
     },
     {
       "name": "NightVisionGem",
@@ -346,7 +354,8 @@
           "src/main/java/net/mcreator/gemmagics/item/NightVisionGemItem.java",
           "src/main/resources/assets/gem_magics/models/item/night_vision_gem.json"
         ]
-      }
+      },
+      "path": "~/Gems/NightVisionGem"
     },
     {
       "name": "ResistanceGem",
@@ -360,7 +369,8 @@
           "src/main/resources/assets/gem_magics/models/item/resistance_gem.json",
           "src/main/java/net/mcreator/gemmagics/item/ResistanceGemItem.java"
         ]
-      }
+      },
+      "path": "~/Gems/ResistanceGem"
     },
     {
       "name": "SpeedGem",
@@ -374,7 +384,8 @@
           "src/main/resources/assets/gem_magics/models/item/speed_gem.json",
           "src/main/java/net/mcreator/gemmagics/item/SpeedGemItem.java"
         ]
-      }
+      },
+      "path": "~/Gems/SpeedGem"
     },
     {
       "name": "SlowFallingGem",
@@ -388,7 +399,8 @@
           "src/main/java/net/mcreator/gemmagics/item/SlowFallingGemItem.java",
           "src/main/resources/assets/gem_magics/models/item/slow_falling_gem.json"
         ]
-      }
+      },
+      "path": "~/Gems/SlowFallingGem"
     },
     {
       "name": "NauseaGem",
@@ -402,7 +414,8 @@
           "src/main/java/net/mcreator/gemmagics/item/NauseaGemItem.java",
           "src/main/resources/assets/gem_magics/models/item/nausea_gem.json"
         ]
-      }
+      },
+      "path": "~/Gems/NauseaGem"
     },
     {
       "name": "SlownessGem",
@@ -416,7 +429,8 @@
           "src/main/resources/assets/gem_magics/models/item/slowness_gem.json",
           "src/main/java/net/mcreator/gemmagics/item/SlownessGemItem.java"
         ]
-      }
+      },
+      "path": "~/Gems/SlownessGem"
     },
     {
       "name": "WitherGemPlayerFinishesUsingItem",
@@ -451,13 +465,14 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Gems/WitherGem"
     },
     {
       "name": "BlindnessGem",
       "type": "item",
       "sortid": 28,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "blindness_gem",
       "metadata": {
@@ -472,7 +487,7 @@
       "name": "DarknessGem",
       "type": "item",
       "sortid": 27,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "darkness_gem",
       "metadata": {
@@ -517,7 +532,7 @@
       "name": "InvisibilityGem",
       "type": "item",
       "sortid": 37,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "invisibility_gem",
       "metadata": {
@@ -674,6 +689,957 @@
         ]
       },
       "path": "~/Gems/InstantHealthGem"
+    },
+    {
+      "name": "BadLuckGemPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bad_luck_gem_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/procedures/BadLuckGemPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gems/BadLuckGem"
+    },
+    {
+      "name": "BlindnessParticle",
+      "type": "particle",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blindness_particle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/client/particle/BlindnessParticleParticle.java",
+          "src/main/resources/assets/gem_magics/particles/blindness_particle.json"
+        ]
+      },
+      "path": "~/Gems/BlindnessGem"
+    },
+    {
+      "name": "BlindnessGemPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blindness_gem_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/procedures/BlindnessGemPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gems/BlindnessGem"
+    },
+    {
+      "name": "ConduitGemPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "conduit_gem_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/procedures/ConduitGemPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gems/ConduitGem"
+    },
+    {
+      "name": "DarknessGemPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkness_gem_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/procedures/DarknessGemPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gems/DarknessGem"
+    },
+    {
+      "name": "GlowingGemPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowing_gem_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/procedures/GlowingGemPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gems/GlowingGem"
+    },
+    {
+      "name": "HealthBoostGemPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "health_boost_gem_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/procedures/HealthBoostGemPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gems/HealthBoostGem"
+    },
+    {
+      "name": "InvisibilityGemPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisibility_gem_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/procedures/InvisibilityGemPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gems/InvisibilityGem"
+    },
+    {
+      "name": "HungerGemPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hunger_gem_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/procedures/HungerGemPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gems/HungerGem"
+    },
+    {
+      "name": "InstantDamageGemPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "instant_damage_gem_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/procedures/InstantDamageGemPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gems/InstantDamageGem"
+    },
+    {
+      "name": "InstantHealthGemPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "instant_health_gem_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/procedures/InstantHealthGemPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gems/InstantHealthGem"
+    },
+    {
+      "name": "JumpBoostGemPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jump_boost_gem_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/procedures/JumpBoostGemPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gems/JumpBoostGem"
+    },
+    {
+      "name": "LevitationGemPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "levitation_gem_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/procedures/LevitationGemPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gems/LevitationGem"
+    },
+    {
+      "name": "LuckGemPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luck_gem_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/procedures/LuckGemPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gems/LuckGem"
+    },
+    {
+      "name": "MiningFatigueGemPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mining_fatigue_gem_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/procedures/MiningFatigueGemPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gems/MiningFatigueGem"
+    },
+    {
+      "name": "NauseaGemPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nausea_gem_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/procedures/NauseaGemPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gems/NauseaGem"
+    },
+    {
+      "name": "NightVisionGemPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_vision_gem_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/procedures/NightVisionGemPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gems/NightVisionGem"
+    },
+    {
+      "name": "PoisonGemPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poison_gem_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/procedures/PoisonGemPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gems/PoisonGem"
+    },
+    {
+      "name": "RegenerationGemPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "regeneration_gem_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/procedures/RegenerationGemPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gems/RegenerationGem"
+    },
+    {
+      "name": "ResistanceGemPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resistance_gem_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/procedures/ResistanceGemPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gems/ResistanceGem"
+    },
+    {
+      "name": "SaturationGemPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saturation_gem_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/procedures/SaturationGemPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gems/SaturationGem"
+    },
+    {
+      "name": "SlowFallingGemPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slow_falling_gem_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/procedures/SlowFallingGemPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gems/SlowFallingGem"
+    },
+    {
+      "name": "SlownessGemPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slowness_gem_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/procedures/SlownessGemPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gems/SlownessGem"
+    },
+    {
+      "name": "SpeedGemPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speed_gem_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/procedures/SpeedGemPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gems/SpeedGem"
+    },
+    {
+      "name": "StrengthGemPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strength_gem_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/procedures/StrengthGemPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gems/StrengthGem"
+    },
+    {
+      "name": "WaterBreathingGemPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_breathing_gem_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/procedures/WaterBreathingGemPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gems/WaterBreathingGem"
+    },
+    {
+      "name": "WeaknessGemPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weakness_gem_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemmagics/procedures/WeaknessGemPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gems/WeaknessGem"
     }
   ],
   "variable_elements": [],
@@ -681,7 +1647,9 @@
     {
       "name": "gem_crush",
       "files": [
-        "gem_crush_01"
+        "gem_crush_01",
+        "gem_crush_02",
+        "gem_crush_03"
       ],
       "category": "player",
       "subtitle": "Gem crunches"
@@ -689,38 +1657,38 @@
   ],
   "language_map": {
     "en_us": {
-      "item.gem_magics.instant_health_gem": "Exbeget",
-      "item.gem_magics.saturation_gem": "Exbeget",
-      "item.gem_magics.mining_fatigue_gem": "Exbeget",
-      "item.gem_magics.instant_damage_gem": "Exbeget",
-      "item.gem_magics.glowing_gem": "Exbeget",
-      "item.gem_magics.conduit_gem": "Exbeget",
-      "item.gem_magics.bad_luck_gem": "Exbeget",
-      "item.gem_magics.resistance_gem": "Exbeget",
+      "item.gem_magics.instant_health_gem": "Revita",
+      "item.gem_magics.saturation_gem": "Nourium",
+      "item.gem_magics.mining_fatigue_gem": "Laborum",
+      "item.gem_magics.instant_damage_gem": "Blitzbane",
+      "item.gem_magics.glowing_gem": "Lumin",
+      "item.gem_magics.conduit_gem": "Abystal",
+      "item.gem_magics.bad_luck_gem": "Forlynx",
+      "item.gem_magics.resistance_gem": "Impervium",
       "item.gem_magics.dolphin_gem": "Delpurl",
-      "item.gem_magics.speed_gem": "Exbeget",
-      "item.gem_magics.nausea_gem": "Exbeget",
-      "item.gem_magics.hunger_gem": "Exbeget",
-      "item.gem_magics.slow_falling_gem": "Exbeget",
-      "item.gem_magics.weakness_gem": "Exbeget",
-      "item.gem_magics.wither_gem": "Exbeget",
-      "item.gem_magics.strength_gem": "Exbeget",
-      "item.gem_magics.slowness_gem": "Exbeget",
-      "item.gem_magics.blindness_gem": "Exbeget",
-      "item.gem_magics.luck_gem": "Exbeget",
+      "item.gem_magics.speed_gem": "Velocitum",
+      "item.gem_magics.nausea_gem": "Vertigum",
+      "item.gem_magics.hunger_gem": "Voracium",
+      "item.gem_magics.slow_falling_gem": "Driftrum",
+      "item.gem_magics.weakness_gem": "Enfeeblus",
+      "item.gem_magics.wither_gem": "Necrogen",
+      "item.gem_magics.strength_gem": "Prowum",
+      "item.gem_magics.slowness_gem": "Languim",
+      "item.gem_magics.blindness_gem": "Umbreil",
+      "item.gem_magics.luck_gem": "Fortuitite",
       "item.gem_magics.absorption_gem": "Exbeget",
       "item.gem_magics.fire_resistance_gem": "Ardyne",
-      "item.gem_magics.poison_gem": "Exbeget",
+      "item.gem_magics.poison_gem": "Toxtrin",
       "item.gem_magics.haste_gem": "Acrité",
-      "item.gem_magics.health_boost_gem": "Exbeget",
-      "item.gem_magics.jump_boost_gem": "Exbeget",
-      "item.gem_magics.levitation_gem": "Exbeget",
-      "item.gem_magics.darkness_gem": "Exbeget",
+      "item.gem_magics.health_boost_gem": "Vitalis",
+      "item.gem_magics.jump_boost_gem": "Caperum",
+      "item.gem_magics.levitation_gem": "Levitas",
+      "item.gem_magics.darkness_gem": "Stygias",
       "subtitles.gem_crush": "Gem crunches",
-      "item.gem_magics.water_breathing_gem": "Exbeget",
-      "item.gem_magics.invisibility_gem": "Exbeget",
-      "item.gem_magics.regeneration_gem": "Exbeget",
-      "item.gem_magics.night_vision_gem": "Exbeget"
+      "item.gem_magics.water_breathing_gem": "Aquaphi",
+      "item.gem_magics.invisibility_gem": "Perciviel",
+      "item.gem_magics.regeneration_gem": "Renewn",
+      "item.gem_magics.night_vision_gem": "Noctilucidum"
     }
   },
   "foldersRoot": {

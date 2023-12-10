@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Exbeget",
+    "name": "Necrogen",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "TOOLS"
@@ -27,7 +27,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "scrimbly scrimblo :3"
+      "Radiates a malevolent force."
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

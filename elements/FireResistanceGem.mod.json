@@ -27,7 +27,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "It feels hot to the touch."
+      "Glows with an impervious flame-repelling radiance."
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
